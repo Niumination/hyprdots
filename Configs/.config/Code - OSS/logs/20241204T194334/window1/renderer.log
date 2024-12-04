@@ -1,0 +1,25 @@
+2024-12-04 19:43:37.457 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 29ms.
+2024-12-04 19:43:40.409 [info] Started local extension host with pid 126736.
+2024-12-04 19:43:45.038 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-04 19:43:45.605 [error] [network] #1: https://open-vsx.org/vscode/gallery/extensionquery - error POST Offline
+2024-12-04 19:43:47.747 [info] Extension host (LocalProcess pid: 126736) is unresponsive.
+2024-12-04 19:43:48.166 [info] [perf] Render performance baseline is 104ms
+2024-12-04 19:43:48.574 [info] Extension host (LocalProcess pid: 126736) is responsive.
+2024-12-04 19:43:49.093 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-04 19:44:27.090 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 19:44:32.563 [info] Started local extension host with pid 126889.
+2024-12-04 19:44:37.744 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-04 19:44:40.665 [info] Extension host (LocalProcess pid: 126889) is unresponsive.
+2024-12-04 19:44:42.675 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-04 19:44:44.038 [info] Extension host (LocalProcess pid: 126889) is responsive.
+2024-12-04 19:44:44.039 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-04 19:44:44.826 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-04 19:44:45.715 [warning] UNRESPONSIVE extension host: 'vscode.typescript-language-features' took 44.81242314215278% of 615.124ms, saved PROFILE here: 'file:///tmp/exthost-d70c12.cpuprofile'
+2024-12-04 19:44:51.990 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-04 19:45:28.848 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 19:48:23.022 [info] Started local extension host with pid 128054.
+2024-12-04 19:48:25.958 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-04 19:48:28.296 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-04 19:48:28.745 [info] Started local extension host with pid 128071.

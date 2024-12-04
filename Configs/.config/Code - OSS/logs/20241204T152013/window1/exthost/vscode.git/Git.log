@@ -1,0 +1,26 @@
+2024-12-04 15:20:24.019 [info] [main] Log level: Info
+2024-12-04 15:20:24.019 [info] [main] Validating found git in: "git"
+2024-12-04 15:20:24.019 [info] [main] Using git "2.47.1" from "git"
+2024-12-04 15:20:24.019 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-04 15:20:24.056 [info] > git rev-parse --show-toplevel [36ms]
+2024-12-04 15:20:27.799 [info] > git rev-parse --git-dir --git-common-dir [715ms]
+2024-12-04 15:20:27.853 [info] [Model][openRepository] Opened repository: /home/zaryu/GitHub/dotfiles
+2024-12-04 15:20:27.948 [info] > git rev-parse --show-toplevel [28ms]
+2024-12-04 15:20:27.950 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-04 15:20:27.954 [info] > git config --get commit.template [52ms]
+2024-12-04 15:20:28.025 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [22ms]
+2024-12-04 15:20:28.725 [info] > git check-ignore -v -z --stdin [34ms]
+2024-12-04 15:20:28.729 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [66ms]
+2024-12-04 15:20:28.747 [info] > git status -z -uall [111ms]
+2024-12-04 15:20:28.869 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [70ms]
+2024-12-04 15:20:29.008 [info] > git config --local branch.main.vscode-merge-base [115ms]
+2024-12-04 15:20:29.033 [info] > git config --get commit.template [181ms]
+2024-12-04 15:20:29.361 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [329ms]
+2024-12-04 15:20:29.484 [info] > git merge-base refs/heads/main refs/remotes/origin/main [97ms]
+2024-12-04 15:20:29.509 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [32ms]
+2024-12-04 15:20:29.539 [info] > git diff --name-status -z --diff-filter=ADMR 6db2c65b4543a718dc26ca935b5e27fc5b4931c2...refs/remotes/origin/main [33ms]
+2024-12-04 15:20:29.596 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-04 15:20:29.610 [info] > git status -z -uall [49ms]
+2024-12-04 15:20:37.210 [info] > git check-ignore -v -z --stdin [10ms]
+2024-12-04 15:20:37.938 [info] > git check-ignore -v -z --stdin [11ms]
+2024-12-04 15:20:39.091 [info] > git check-ignore -v -z --stdin [12ms]

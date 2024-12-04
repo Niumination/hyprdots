@@ -1,0 +1,48 @@
+2024-12-04 18:08:44.266 [info] Extension host with pid 4012 started
+2024-12-04 18:08:44.266 [info] Skipping acquiring lock for /home/zaryu/.config/Code - OSS/User/workspaceStorage/f747596f3d435ca0b953b0a04338c3d2.
+2024-12-04 18:08:44.604 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-04 18:08:44.650 [info] ExtensionService#_doActivateExtension arrterian.nix-env-selector, startup: true, activationEvent: '*'
+2024-12-04 18:08:45.085 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-04 18:08:45.530 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-04 18:08:45.961 [info] Eager extensions activated
+2024-12-04 18:08:46.649 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 18:08:46.696 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 18:08:46.823 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 18:08:47.150 [info] ExtensionService#_doActivateExtension sourcegraph.cody-ai, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 18:08:50.715 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-04 18:08:50.814 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-04 18:08:59.963 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 18:09:00.025 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 18:09:00.237 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 18:11:27.388 [error] TypeError: The "paths[1]" argument must be of type string. Received undefined
+	at Object.resolve (node:path:1169:7)
+	at createParser (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:185092:46)
+	at parseDocument (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:185160:25)
+	at parseAllVisibleDocuments (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:185215:19)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:35355)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:155:61493)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Sw.acceptDocumentsAndEditorsDelta (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:11495)
+	at Sw.$acceptDocumentsAndEditorsDelta (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:121:10040)
+	at py.S (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113311)
+	at py.Q (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113091)
+	at py.M (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:112180)
+	at py.L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111285)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110082)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:13279)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11571)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)

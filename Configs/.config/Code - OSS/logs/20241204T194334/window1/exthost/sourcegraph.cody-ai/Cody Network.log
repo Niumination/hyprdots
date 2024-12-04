@@ -1,0 +1,768 @@
+2024-12-04 19:43:52.283 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.892Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.892Z",
+    "error": "2024-12-04T12:43:51.859Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.859Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.755Z"
+    },
+    "start": "2024-12-04T12:43:50.646Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.896Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.896Z",
+    "error": "2024-12-04T12:43:51.847Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.848Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.727Z"
+    },
+    "start": "2024-12-04T12:43:50.642Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.897Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.897Z",
+    "error": "2024-12-04T12:43:51.844Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.845Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.698Z"
+    },
+    "start": "2024-12-04T12:43:50.638Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.898Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.898Z",
+    "error": "2024-12-04T12:43:51.843Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.843Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.670Z"
+    },
+    "start": "2024-12-04T12:43:50.629Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.899Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.899Z",
+    "error": "2024-12-04T12:43:51.841Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.842Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.641Z"
+    },
+    "start": "2024-12-04T12:43:50.617Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.900Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.900Z",
+    "error": "2024-12-04T12:43:51.815Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.815Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.611Z"
+    },
+    "start": "2024-12-04T12:43:50.614Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.901Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.901Z",
+    "error": "2024-12-04T12:43:51.773Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.773Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.100Z"
+    },
+    "start": "2024-12-04T12:43:51.063Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?SiteProductVersion"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:51.902Z",
+  "timings": {
+    "close": "2024-12-04T12:43:51.902Z",
+    "error": "2024-12-04T12:43:51.764Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:51.764Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.026Z"
+    },
+    "start": "2024-12-04T12:43:50.994Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?RecordTelemetryEvents"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:52.092Z",
+  "timings": {
+    "close": "2024-12-04T12:43:52.092Z",
+    "error": "2024-12-04T12:43:52.078Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:52.079Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.994Z"
+    },
+    "start": "2024-12-04T12:43:51.965Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}
+2024-12-04 19:43:52.284 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:52.093Z",
+  "timings": {
+    "close": "2024-12-04T12:43:52.093Z",
+    "error": "2024-12-04T12:43:52.064Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:52.064Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:51.811Z"
+    },
+    "start": "2024-12-04T12:43:51.783Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?RecordTelemetryEvents"
+}
+2024-12-04 19:43:59.421 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:59.420Z",
+  "timings": {
+    "close": "2024-12-04T12:43:59.420Z",
+    "error": "2024-12-04T12:43:59.416Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:59.416Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:59.413Z"
+    },
+    "start": "2024-12-04T12:43:59.380Z"
+  },
+  "url": "https://sourcegraph.com/healthz"
+}
+2024-12-04 19:43:59.470 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:43:59.470Z",
+  "timings": {
+    "close": "2024-12-04T12:43:59.470Z",
+    "error": "2024-12-04T12:43:59.460Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "cody-gateway.sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:43:59.460Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "cody-gateway.sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:43:59.457Z"
+    },
+    "start": "2024-12-04T12:43:59.418Z"
+  },
+  "url": "https://cody-gateway.sourcegraph.com/-/__version"
+}
+2024-12-04 19:44:54.138 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.299Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.299Z",
+    "error": "2024-12-04T12:44:53.112Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.113Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.775Z"
+    },
+    "start": "2024-12-04T12:44:48.794Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.318Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.318Z",
+    "error": "2024-12-04T12:44:53.095Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.096Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.725Z"
+    },
+    "start": "2024-12-04T12:44:48.785Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.320Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.320Z",
+    "error": "2024-12-04T12:44:53.075Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.075Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.679Z"
+    },
+    "start": "2024-12-04T12:44:48.773Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.321Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.321Z",
+    "error": "2024-12-04T12:44:53.074Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.074Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.630Z"
+    },
+    "start": "2024-12-04T12:44:48.752Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.326Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.326Z",
+    "error": "2024-12-04T12:44:53.071Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.072Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.589Z"
+    },
+    "start": "2024-12-04T12:44:48.733Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.327Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.327Z",
+    "error": "2024-12-04T12:44:53.029Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.029Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.537Z"
+    },
+    "start": "2024-12-04T12:44:48.711Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.948Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.948Z",
+    "error": "2024-12-04T12:44:53.827Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.827Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:53.500Z"
+    },
+    "start": "2024-12-04T12:44:53.448Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.949Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.949Z",
+    "error": "2024-12-04T12:44:53.754Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.754Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.973Z"
+    },
+    "start": "2024-12-04T12:44:52.933Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?SiteProductVersion"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:53.950Z",
+  "timings": {
+    "close": "2024-12-04T12:44:53.950Z",
+    "error": "2024-12-04T12:44:53.741Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:53.742Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:52.901Z"
+    },
+    "start": "2024-12-04T12:44:52.864Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?RecordTelemetryEvents"
+}
+2024-12-04 19:44:54.142 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:54.058Z",
+  "timings": {
+    "close": "2024-12-04T12:44:54.058Z",
+    "error": "2024-12-04T12:44:54.018Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:54.019Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:53.818Z"
+    },
+    "start": "2024-12-04T12:44:53.774Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?RecordTelemetryEvents"
+}
+2024-12-04 19:44:56.653 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:56.651Z",
+  "timings": {
+    "close": "2024-12-04T12:44:56.651Z",
+    "error": "2024-12-04T12:44:56.630Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:56.631Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:56.467Z"
+    },
+    "start": "2024-12-04T12:44:56.431Z"
+  },
+  "url": "https://sourcegraph.com/healthz"
+}
+2024-12-04 19:44:56.760 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-04T12:44:56.758Z",
+  "timings": {
+    "close": "2024-12-04T12:44:56.758Z",
+    "error": "2024-12-04T12:44:56.747Z",
+    "errorValue": {
+      "code": "EAI_AGAIN",
+      "errno": -3001,
+      "hostname": "cody-gateway.sourcegraph.com",
+      "message": "getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com",
+      "stack": "Error: getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+      "syscall": "getaddrinfo"
+    },
+    "socket": {
+      "error": "2024-12-04T12:44:56.747Z",
+      "errorValue": {
+        "code": "EAI_AGAIN",
+        "errno": -3001,
+        "hostname": "cody-gateway.sourcegraph.com",
+        "message": "getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com",
+        "stack": "Error: getaddrinfo EAI_AGAIN cody-gateway.sourcegraph.com\n\tat GetAddrInfoReqWrap.onlookupall [as oncomplete] (node:dns:120:26)\n\tat GetAddrInfoReqWrap.callbackTrampoline (node:internal/async_hooks:130:17)",
+        "syscall": "getaddrinfo"
+      },
+      "start": "2024-12-04T12:44:56.713Z"
+    },
+    "start": "2024-12-04T12:44:56.635Z"
+  },
+  "url": "https://cody-gateway.sourcegraph.com/-/__version"
+}

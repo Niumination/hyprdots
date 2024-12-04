@@ -1,0 +1,8 @@
+2024-12-04 16:34:25.575 [info] Extension host with pid 69055 started
+2024-12-04 16:34:25.575 [info] Skipping acquiring lock for /home/zaryu/.config/Code - OSS/User/workspaceStorage/f747596f3d435ca0b953b0a04338c3d2.
+2024-12-04 16:34:26.125 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-04 16:34:26.174 [info] ExtensionService#_doActivateExtension arrterian.nix-env-selector, startup: true, activationEvent: '*'
+2024-12-04 16:34:27.139 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-04 16:34:27.917 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-04 16:34:28.585 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-04 16:34:28.595 [info] Extension host with pid 69055 exiting with code 0

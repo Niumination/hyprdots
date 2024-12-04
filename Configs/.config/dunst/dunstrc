@@ -64,7 +64,7 @@
     progress_bar_corner_radius = 4
 
     # Corner radius for the icon image.
-    icon_corner_radius = 10
+    icon_corner_radius = 5
 
     # Show how many messages are currently hidden (because of
     # notification_limit).
@@ -217,7 +217,7 @@
     max_icon_size = 128
 
     # Paths to default icons (only necessary when not using recursive icon lookup)
-    icon_path = $HOME/.icons/Tela-circle-dracula/16/actions:$HOME/.icons/Tela-circle-dracula/16/apps:$HOME/.icons/Tela-circle-dracula/16/devices:$HOME/.icons/Tela-circle-dracula/16/mimetypes:$HOME/.icons/Tela-circle-dracula/16/panel:$HOME/.icons/Tela-circle-dracula/16/places:$HOME/.icons/Tela-circle-dracula/16/status
+    icon_path = /home/zaryu/.icons/Tela-circle-dracula/16/actions:/home/zaryu/.icons/Tela-circle-dracula/16/apps:/home/zaryu/.icons/Tela-circle-dracula/16/devices:/home/zaryu/.icons/Tela-circle-dracula/16/mimetypes:/home/zaryu/.icons/Tela-circle-dracula/16/panel:/home/zaryu/.icons/Tela-circle-dracula/16/places:/home/zaryu/.icons/Tela-circle-dracula/16/status
 
     ### History ###
 
@@ -231,7 +231,7 @@
     ### Misc/Advanced ###
 
     # dmenu path.
-    dmenu = /usr/bin/rofi -config "$HOME/.config/rofi/notification.rasi" -dmenu -p dunst:
+    dmenu = /usr/bin/rofi -config "/home/zaryu/.config/rofi/notification.rasi" -dmenu -p dunst:
 
     # Browser for opening urls in context menu.
     browser = /usr/bin/xdg-open
@@ -250,7 +250,7 @@
     # corners.
     # The radius will be automatically lowered if it exceeds half of the
     # notification height to avoid clipping text and/or icons.
-    corner_radius = 10
+    corner_radius = 5
 
     # Ignore the dbus closeNotification message.
     # Useful to enforce the timeout set by dunst configuration. Without this
@@ -445,19 +445,19 @@
     background = "#f5e0dc"
     foreground = "#1e1e2e"
     frame_color = "#f38ba8"
-    icon = "$HOME/.config/dunst/icons/critical.svg"
+    icon = "/home/zaryu/.config/dunst/icons/critical.svg"
     timeout = 0
 
 [urgency_low]
-    background = "#6591A380"
-    foreground = "#CCF0FFE6"
-    frame_color = "#6591A303"
-    icon = "$HOME/.config/dunst/icons/hyprdots.svg"
+    background = "#6582A380"
+    foreground = "#CCE4FFE6"
+    frame_color = "#6582A303"
+    icon = "/home/zaryu/.config/dunst/icons/hyprdots.svg"
     timeout = 5
 
 [urgency_normal]
-    background = "#3A4A6B80"
-    foreground = "#CCDDFFE6"
-    frame_color = "#3A4A6B03"
-    icon = "$HOME/.config/dunst/icons/hyprdots.svg"
+    background = "#3A4B6B80"
+    foreground = "#CCDEFFE6"
+    frame_color = "#3A4B6B03"
+    icon = "/home/zaryu/.config/dunst/icons/hyprdots.svg"
     timeout = 5

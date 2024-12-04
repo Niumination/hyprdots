@@ -1,0 +1,39 @@
+2024-12-03 11:50:45.918 [info] [main] Log level: Info
+2024-12-03 11:50:45.918 [info] [main] Validating found git in: "git"
+2024-12-03 11:50:45.918 [info] [main] Using git "2.47.1" from "git"
+2024-12-03 11:50:45.918 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-03 11:50:45.918 [info] > git rev-parse --show-toplevel [13ms]
+2024-12-03 11:50:45.918 [info] > git rev-parse --git-dir --git-common-dir [4ms]
+2024-12-03 11:50:45.918 [info] [Model][openRepository] Opened repository: /home/zaryu/GitHub/hyprnix
+2024-12-03 11:50:45.918 [info] > git config --get commit.template [19ms]
+2024-12-03 11:50:45.918 [info] > git rev-parse --show-toplevel [10ms]
+2024-12-03 11:50:45.918 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-03 11:50:45.918 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [13ms]
+2024-12-03 11:50:45.922 [info] > git status -z -uall [20ms]
+2024-12-03 11:50:45.933 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [15ms]
+2024-12-03 11:50:46.018 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [40ms]
+2024-12-03 11:50:48.933 [info] > git config --local branch.main.vscode-merge-base [2892ms]
+2024-12-03 11:50:48.934 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-03 11:50:48.951 [info] > git config --get commit.template [2935ms]
+2024-12-03 11:50:49.712 [info] > git reflog main --grep-reflog=branch: Created from *. [761ms]
+2024-12-03 11:50:50.049 [info] > git check-ignore -v -z --stdin [306ms]
+2024-12-03 11:50:50.052 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [326ms]
+2024-12-03 11:50:50.412 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [346ms]
+2024-12-03 11:50:50.432 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [390ms]
+2024-12-03 11:50:50.518 [info] > git config --local branch.main.vscode-merge-base origin/main [88ms]
+2024-12-03 11:50:50.561 [info] > git config --get commit.template [6ms]
+2024-12-03 11:50:50.622 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [41ms]
+2024-12-03 11:50:50.651 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-12-03 11:50:50.672 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [57ms]
+2024-12-03 11:50:50.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [7ms]
+2024-12-03 11:50:51.020 [info] > git merge-base refs/heads/main refs/remotes/origin/main [300ms]
+2024-12-03 11:50:51.212 [info] > git diff --name-status -z --diff-filter=ADMR 5b36af28cb2b9c2f20c41487088eac5f82f559e3...refs/remotes/origin/main [173ms]
+2024-12-03 11:50:51.250 [info] > git status -z -uall [19ms]
+2024-12-03 11:50:51.253 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [5ms]
+2024-12-03 11:50:54.393 [info] > git config --get commit.template [39ms]
+2024-12-03 11:50:54.416 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [4ms]
+2024-12-03 11:50:54.505 [info] > git status -z -uall [51ms]
+2024-12-03 11:50:54.507 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [26ms]
+2024-12-03 11:50:57.038 [info] > git show --textconv :home.nix [248ms]
+2024-12-03 11:50:57.052 [info] > git ls-files --stage -- /home/zaryu/GitHub/hyprnix/home.nix [183ms]
+2024-12-03 11:50:57.120 [info] > git cat-file -s d6e7b52c933dbfd823a5b99de3ae0e2d8a630dbe [41ms]

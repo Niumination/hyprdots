@@ -1,0 +1,56 @@
+2024-12-04 16:15:17.164 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 21ms.
+2024-12-04 16:15:19.104 [info] Started local extension host with pid 31908.
+2024-12-04 16:15:23.478 [error] [Extension Host] TypeError: Cannot read properties of undefined (reading 'replace')
+	at n (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:1:1090)
+	at Bi (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41680)
+	at Ho.get (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41969)
+	at get formatterPath (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42024)
+	at Object.<anonymous> (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42449)
+	at Module._compile (node:internal/modules/cjs/loader:1484:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+	at Module.load (node:internal/modules/cjs/loader:1295:32)
+	at Module._load (node:internal/modules/cjs/loader:1111:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:10879)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:22433)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:4651)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at z_.xb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:23753)
+	at async Promise.all (index 0)
+2024-12-04 16:15:23.483 [error] [Extension Host] TypeError: Cannot read properties of undefined (reading 'replace')
+	at n (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:1:1090)
+	at Bi (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41680)
+	at Ho.get (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41969)
+	at get formatterPath (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42024)
+	at Object.<anonymous> (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42501)
+	at Module._compile (node:internal/modules/cjs/loader:1484:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+	at Module.load (node:internal/modules/cjs/loader:1295:32)
+	at Module._load (node:internal/modules/cjs/loader:1111:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:10879)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:22433)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:4651)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at z_.xb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:23753)
+	at async Promise.all (index 0)
+2024-12-04 16:15:23.598 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-04 16:15:26.444 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-04 16:16:06.586 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:17:13.025 [info] [perf] Render performance baseline is 84ms
+2024-12-04 16:18:46.237 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:20:01.593 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:21:07.641 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:22:08.386 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:22:43.505 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:23:18.599 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:174999:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-04 16:23:56.431 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/install.sh 
+2024-12-04 16:23:56.432 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/install_pre.sh 
+2024-12-04 16:23:56.433 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/install_aur.sh 
+2024-12-04 16:23:56.435 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/custom_apps.lst 
+2024-12-04 16:23:56.436 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/themepatcher.lst 
+2024-12-04 16:23:56.438 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/.extra/custom_flat.lst 
+2024-12-04 16:23:56.439 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/restore_cfg.lst 
+2024-12-04 16:23:56.440 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/GitHub/hyprdots/Scripts/.extra/install_mod.sh 

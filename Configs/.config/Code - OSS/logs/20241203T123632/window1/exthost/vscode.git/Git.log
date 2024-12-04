@@ -1,0 +1,40 @@
+2024-12-03 12:36:41.992 [info] [main] Log level: Info
+2024-12-03 12:36:41.992 [info] [main] Validating found git in: "git"
+2024-12-03 12:36:41.992 [info] [main] Using git "2.47.1" from "git"
+2024-12-03 12:36:41.992 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-03 12:36:41.992 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-03 12:36:41.992 [info] > git rev-parse --git-dir --git-common-dir [12ms]
+2024-12-03 12:36:41.992 [info] [Model][openRepository] Opened repository: /home/zaryu/GitHub/dotfiles
+2024-12-03 12:36:41.992 [info] > git rev-parse --show-toplevel [25ms]
+2024-12-03 12:36:41.992 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-03 12:36:41.992 [info] > git config --get commit.template [43ms]
+2024-12-03 12:36:45.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [3241ms]
+2024-12-03 12:36:46.031 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zaryu/GitHub/dotfiles/.git/refs/remotes/origin/master'
+2024-12-03 12:36:46.241 [info] > git rev-parse refs/remotes/origin/master [210ms]
+2024-12-03 12:36:46.726 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [439ms]
+2024-12-03 12:36:46.960 [info] > git check-ignore -v -z --stdin [40ms]
+2024-12-03 12:36:47.502 [info] > git status -z -uall [1243ms]
+2024-12-03 12:36:47.572 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [34ms]
+2024-12-03 12:36:47.605 [info] > git config --local branch.master.vscode-merge-base [3ms]
+2024-12-03 12:36:47.605 [warning] [Git][config] git config failed: Failed to execute git
+2024-12-03 12:36:47.625 [info] > git config --get commit.template [57ms]
+2024-12-03 12:36:47.658 [info] > git reflog master --grep-reflog=branch: Created from *. [33ms]
+2024-12-03 12:36:47.679 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [25ms]
+2024-12-03 12:36:47.696 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zaryu/GitHub/dotfiles/.git/refs/remotes/origin/master'
+2024-12-03 12:36:47.699 [info] > git symbolic-ref --short refs/remotes/origin/HEAD [22ms]
+2024-12-03 12:36:47.725 [info] > git rev-parse refs/remotes/origin/master [28ms]
+2024-12-03 12:36:47.807 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-12-03 12:36:47.809 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [90ms]
+2024-12-03 12:36:47.856 [info] > git config --local branch.master.vscode-merge-base origin/master [13ms]
+2024-12-03 12:36:47.906 [info] > git status -z -uall [152ms] (cancelled)
+2024-12-03 12:36:47.907 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [30ms]
+2024-12-03 12:36:47.928 [info] > git config --get commit.template [25ms]
+2024-12-03 12:36:48.110 [info] > git config --local branch.master.vscode-merge-base [185ms]
+2024-12-03 12:36:48.159 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [31ms]
+2024-12-03 12:36:48.225 [info] > git merge-base refs/heads/master refs/remotes/origin/master [40ms]
+2024-12-03 12:36:48.245 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [89ms]
+2024-12-03 12:36:48.267 [warning] [Git][revParse] Unable to read file: ENOENT: no such file or directory, open '/home/zaryu/GitHub/dotfiles/.git/refs/remotes/origin/master'
+2024-12-03 12:36:48.269 [info] > git diff --name-status -z --diff-filter=ADMR 0b26930639446dac4b0bffc1aca5db21eb106240...refs/remotes/origin/master [24ms]
+2024-12-03 12:36:48.275 [info] > git rev-parse refs/remotes/origin/master [7ms]
+2024-12-03 12:36:48.403 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [94ms]
+2024-12-03 12:36:48.810 [info] > git status -z -uall [520ms]

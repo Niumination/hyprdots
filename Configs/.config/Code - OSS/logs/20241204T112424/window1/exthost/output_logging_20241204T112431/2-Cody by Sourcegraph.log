@@ -1,0 +1,130 @@
+█ ChatsController:constructor init:
+█ telemetry-v2 recordEvent: cody.extension/savedLogin:
+█ auth Authenticating to https://sourcegraph.com/...:
+█ ModelsService User model preferences changed: {"defaults":{"chat":"anthropic::2023-06-01::claude-3.5-sonnet","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{}}
+█ GraphQLTelemetryExporter evaluated export mode:: 5.2.5+
+█ auth Authentication succeed to endpoint https://sourcegraph.com/:
+█ telemetry-v2 recordEvent: cody.auth/connected:
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/GitHub/hive-dotfiles
+█ ClientConfigSingleton refreshing configuration:
+█ symf using downloaded symf "/home/zaryu/.config/Code - OSS/User/globalStorage/sourcegraph.cody-ai/symf/symf-v0.0.16-x86_64-linux":
+█ symf creating index: file:///home/zaryu/.config/Code%20-%20OSS/User/globalStorage/sourcegraph.cody-ai/symf/indexroot/home/zaryu/GitHub/hive-dotfiles
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ModelsService new models API enabled:
+█ Autocomplete:initialized using "dotcom-feature-flags": "fireworks::deepseek-coder-v2-lite-base":
+█ ModelsService ModelsData changed: 15 primary models
+█ UpstreamHealth Ping took 2677ms (Gateway: 3513ms):
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c8d7dc5e-ec36-4ac7-b544-a73d959e9cf4":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:onComplete duration:"1291ms" stopReason:"cody-request-aborted" outputChannelId:"c8d7dc5e-ec36-4ac7-b544-a73d959e9cf4":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "93f7bbcc-e105-4a78-a105-c6a8c9344e0b":
+█ Autocomplete:onComplete duration:"611ms" stopReason:"stop" outputChannelId:"93f7bbcc-e105-4a78-a105-c6a8c9344e0b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e04712d1-4f83-4465-a52f-e002a406cee2":
+█ Autocomplete:onComplete duration:"1103ms" stopReason:"stop" outputChannelId:"e04712d1-4f83-4465-a52f-e002a406cee2":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "8325de81-f3ff-4ba1-b50c-2fd44395f1fc":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "7599c760-d8ae-44c4-b653-96b5521bd06a":
+█ Autocomplete:onComplete duration:"1076ms" stopReason:"stop" outputChannelId:"8325de81-f3ff-4ba1-b50c-2fd44395f1fc":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "001d6800-cf3a-40b4-b535-e6068f992890":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "58bbe5a9-c601-4566-b3b9-5b882674ad82":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e438516e-0ded-4a22-8d3d-fc23a66ba204":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f3166a00-61b8-4b42-b99d-cb3a2d43e699":
+█ Autocomplete:onComplete duration:"918ms" stopReason:"stop" outputChannelId:"58bbe5a9-c601-4566-b3b9-5b882674ad82":
+█ Autocomplete:onComplete duration:"2143ms" stopReason:"stop" outputChannelId:"7599c760-d8ae-44c4-b653-96b5521bd06a":
+█ Autocomplete:onComplete duration:"3022ms" stopReason:"cody-request-aborted" outputChannelId:"001d6800-cf3a-40b4-b535-e6068f992890":
+█ Autocomplete:onComplete duration:"2503ms" stopReason:"stop" outputChannelId:"e438516e-0ded-4a22-8d3d-fc23a66ba204":
+█ Autocomplete:onComplete duration:"3519ms" stopReason:"cody-request-aborted" outputChannelId:"f3166a00-61b8-4b42-b99d-cb3a2d43e699":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "79f04911-416e-449a-a102-fbf529a3eac4":
+█ Autocomplete:onComplete duration:"2289ms" stopReason:"stop" outputChannelId:"79f04911-416e-449a-a102-fbf529a3eac4":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "0db7764b-5d5f-4eb8-b189-d623b1aa8d21":
+█ Autocomplete:onComplete duration:"1616ms" stopReason:"stop" outputChannelId:"0db7764b-5d5f-4eb8-b189-d623b1aa8d21":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "bfd03fc5-e847-439c-be19-1adc3b4e7d6a":
+█ Autocomplete:onComplete duration:"3307ms" stopReason:"stop" outputChannelId:"bfd03fc5-e847-439c-be19-1adc3b4e7d6a":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "38280b73-7b03-40a0-a694-430c6326eec5":
+█ Autocomplete:onComplete duration:"1030ms" stopReason:"stop" outputChannelId:"38280b73-7b03-40a0-a694-430c6326eec5":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9aa697ec-4094-4572-8dc0-f5f680cf354a":
+█ Autocomplete:onComplete duration:"1850ms" stopReason:"stop" outputChannelId:"9aa697ec-4094-4572-8dc0-f5f680cf354a":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "36ccab44-02a4-4dc0-ba58-c95e109e66de":
+█ Autocomplete:onComplete duration:"1623ms" stopReason:"stop" outputChannelId:"36ccab44-02a4-4dc0-ba58-c95e109e66de":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "b01aea14-8acf-4b17-83d9-03753db03e4b":
+█ Autocomplete:onComplete duration:"2010ms" stopReason:"length" outputChannelId:"b01aea14-8acf-4b17-83d9-03753db03e4b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "16e48810-934d-42e7-96a6-ce777b3ed8ff":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9b7c02cb-345d-492c-bea3-8fd72807f62d":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "14ec08eb-28a4-4b08-88ae-0863f626208e":
+█ Autocomplete:onComplete duration:"547ms" stopReason:"cody-request-aborted" outputChannelId:"9b7c02cb-345d-492c-bea3-8fd72807f62d":
+█ Autocomplete:onComplete duration:"1797ms" stopReason:"stop" outputChannelId:"16e48810-934d-42e7-96a6-ce777b3ed8ff":
+█ Autocomplete:onComplete duration:"2075ms" stopReason:"cody-request-aborted" outputChannelId:"14ec08eb-28a4-4b08-88ae-0863f626208e":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e8cd1d10-62dd-4344-a622-a78d1e276838":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "88a70146-f338-4626-8cca-3cab613a62ae":
+█ Autocomplete:onComplete duration:"1727ms" stopReason:"cody-request-aborted" outputChannelId:"e8cd1d10-62dd-4344-a622-a78d1e276838":
+█ Autocomplete:onComplete duration:"3050ms" stopReason:"cody-request-aborted" outputChannelId:"88a70146-f338-4626-8cca-3cab613a62ae":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1f338506-8634-473a-a3f9-a712e49e0155":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "74929336-c0b8-49dd-81f7-58395b70203b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9263bc78-902a-44e3-95e5-689b5040981c":
+█ Autocomplete:onComplete duration:"1915ms" stopReason:"cody-request-aborted" outputChannelId:"1f338506-8634-473a-a3f9-a712e49e0155":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "7328a174-432b-4d00-98dc-9ba37d5e17c6":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1dc2663e-eb48-4160-8ebe-8cb9e61b673e":
+█ Autocomplete:onComplete duration:"2851ms" stopReason:"length" outputChannelId:"74929336-c0b8-49dd-81f7-58395b70203b":
+█ Autocomplete:onComplete duration:"2010ms" stopReason:"cody-request-aborted" outputChannelId:"9263bc78-902a-44e3-95e5-689b5040981c":
+█ Autocomplete:onComplete duration:"1157ms" stopReason:"stop" outputChannelId:"1dc2663e-eb48-4160-8ebe-8cb9e61b673e":
+█ Autocomplete:onComplete duration:"1603ms" stopReason:"stop" outputChannelId:"7328a174-432b-4d00-98dc-9ba37d5e17c6":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "bb003951-7def-4619-87ce-5179fdc5c8f2":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "b88b0185-8e98-4131-9790-a6db9088a92e":
+█ Autocomplete:onComplete duration:"3440ms" stopReason:"cody-request-aborted" outputChannelId:"bb003951-7def-4619-87ce-5179fdc5c8f2":
+█ Autocomplete:onComplete duration:"2141ms" stopReason:"stop" outputChannelId:"b88b0185-8e98-4131-9790-a6db9088a92e":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "fcd78422-723a-4a49-b404-ec4e14765b4c":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f49b35b6-af2d-4002-b860-95e0977938ef":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1b4235da-764d-461a-a284-051dc35e5e56":
+█ Autocomplete:onComplete duration:"2318ms" stopReason:"stop" outputChannelId:"fcd78422-723a-4a49-b404-ec4e14765b4c":
+█ Autocomplete:onComplete duration:"942ms" stopReason:"stop" outputChannelId:"1b4235da-764d-461a-a284-051dc35e5e56":
+█ Autocomplete:onComplete duration:"1863ms" stopReason:"cody-request-aborted" outputChannelId:"f49b35b6-af2d-4002-b860-95e0977938ef":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "dbb435de-b5b0-4b8d-9a1d-fb522f7473a4":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e899e379-4f50-49c1-9e95-b881f2fb6cca":
+█ Autocomplete:onComplete duration:"1610ms" stopReason:"stop" outputChannelId:"dbb435de-b5b0-4b8d-9a1d-fb522f7473a4":
+█ Autocomplete:onComplete duration:"1989ms" stopReason:"stop" outputChannelId:"e899e379-4f50-49c1-9e95-b881f2fb6cca":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1f640e1e-d059-41fb-b978-8e337292ec21":
+█ ClientConfigSingleton refreshing configuration:
+█ Autocomplete:onComplete duration:"1024ms" stopReason:"stop" outputChannelId:"1f640e1e-d059-41fb-b978-8e337292ec21":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1b2e699f-83f7-43ff-96a3-d80caa7d7892":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ceeaf1bf-819c-46fe-8dcd-9eb4e0addac9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f9b5ac1d-d585-4b2a-9f85-b66f465352fd":
+█ Autocomplete:onComplete duration:"1806ms" stopReason:"stop" outputChannelId:"1b2e699f-83f7-43ff-96a3-d80caa7d7892":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "4a682467-bce5-45bb-80fe-426fb3cb5fd0":
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:onComplete duration:"1770ms" stopReason:"stop" outputChannelId:"f9b5ac1d-d585-4b2a-9f85-b66f465352fd":
+█ Autocomplete:onComplete duration:"2351ms" stopReason:"stop" outputChannelId:"4a682467-bce5-45bb-80fe-426fb3cb5fd0":
+█ Autocomplete:onComplete duration:"3765ms" stopReason:"cody-request-aborted" outputChannelId:"ceeaf1bf-819c-46fe-8dcd-9eb4e0addac9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "57720605-0d4c-4555-b4de-b8634f16d5f4":
+█ Autocomplete:onComplete duration:"3685ms" stopReason:"cody-request-aborted" outputChannelId:"57720605-0d4c-4555-b4de-b8634f16d5f4":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "44ae621e-ba45-4044-be4d-25e04f380ace":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f9a2c145-2519-4336-95fa-399f96972bd0":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "011003cb-c5fc-475c-8d83-c8f695cd3261":
+█ Autocomplete:onComplete duration:"1665ms" stopReason:"stop" outputChannelId:"44ae621e-ba45-4044-be4d-25e04f380ace":
+█ Autocomplete:onComplete duration:"2189ms" stopReason:"stop" outputChannelId:"f9a2c145-2519-4336-95fa-399f96972bd0":
+█ Autocomplete:onComplete duration:"2350ms" stopReason:"stop" outputChannelId:"011003cb-c5fc-475c-8d83-c8f695cd3261":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "d83f15c4-100e-452d-ad16-1c482b2afbc4":
+█ ClientConfigSingleton refreshing configuration:
+█ Autocomplete:onComplete duration:"709ms" stopReason:"stop" outputChannelId:"d83f15c4-100e-452d-ad16-1c482b2afbc4":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "121c6fe9-3d9a-4a43-b1d6-5ffed37cfd5e":
+█ Autocomplete:onComplete duration:"620ms" stopReason:"stop" outputChannelId:"121c6fe9-3d9a-4a43-b1d6-5ffed37cfd5e":
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "8ac71b48-4dcd-4dbd-8a44-800a872b0cf5":
+█ Autocomplete:onComplete duration:"1810ms" stopReason:"stop" outputChannelId:"8ac71b48-4dcd-4dbd-8a44-800a872b0cf5":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ UpstreamHealth Ping took 994ms (Gateway: 1535ms):
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6fc1b336-b64e-436c-a533-0c2c4e740131":
+█ Autocomplete:onComplete duration:"606ms" stopReason:"stop" outputChannelId:"6fc1b336-b64e-436c-a533-0c2c4e740131":

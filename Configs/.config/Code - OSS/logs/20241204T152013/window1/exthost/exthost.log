@@ -1,0 +1,41 @@
+2024-12-04 15:20:22.112 [info] Extension host with pid 11327 started
+2024-12-04 15:20:22.112 [info] Skipping acquiring lock for /home/zaryu/.config/Code - OSS/User/workspaceStorage/b6b60bbd69202ed20d695daf0396035c.
+2024-12-04 15:20:22.956 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-04 15:20:22.996 [info] ExtensionService#_doActivateExtension arrterian.nix-env-selector, startup: true, activationEvent: '*'
+2024-12-04 15:20:23.270 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-04 15:20:23.588 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-04 15:20:23.954 [info] Eager extensions activated
+2024-12-04 15:20:24.062 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 15:20:24.080 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 15:20:24.160 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 15:20:24.374 [info] ExtensionService#_doActivateExtension sourcegraph.cody-ai, startup: false, activationEvent: 'onStartupFinished'
+2024-12-04 15:20:28.034 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-04 15:20:28.824 [error] Error: AuthStatus is not initialized
+	at currentAuthStatus (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:21933:11)
+	at /home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.46.0-universal/dist/extension.node.js:219036:27
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:35355)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Vw.onDidChangeWindowProperty (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16297)
+	at Vw.$onDidChangeWindowFocus (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16108)
+	at py.S (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113311)
+	at py.Q (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113091)
+	at py.M (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:112180)
+	at py.L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111285)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110082)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:13279)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11571)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-12-04 15:20:29.622 [info] ExtensionService#_doActivateExtension vscode.github-authentication, startup: false, activationEvent: 'onAuthenticationRequest:github'
+2024-12-04 15:20:33.357 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 15:20:33.425 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-04 15:20:33.672 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'

@@ -5,41 +5,37 @@ $HOME/.config/kitty/theme.conf|killall -SIGUSR1 kitty
 background #0d0f18
 foreground #a5b6cf
 
-# Black
-color0 #151720
-color8 #1c1e27
+# black
+color0 #21222c
+color8 #6272a4
 
-# Red
-color1 #dd6777
-color9 #e26c7c
+# red
+color1 #ff5555
+color9 #ff6e6e
 
-# Green
-color4  #90ceaa
-color12 #95d3af
+# green
+color2 #50fa7b
+color10 #69ff94
 
-# Yellow
-color3  #ecd3a0
-color11 #f1d8a5
+# yellow
+color3 #f1fa8c
+color11 #ffffa5
 
-# Blue
-color2  #86aaec
-color10 #8baff1
+# blue
+color4 #bd93f9
+color12 #d6acff
 
-# Magenta
-color5  #c296eb
-color13 #c79bf0
+# magenta
+color5 #ff79c6
+color13 #ff92df
 
-# Cyan
-color6  #93cee9
-color14 #98d3ee
+# cyan
+color6 #8be9fd
+color14 #a4ffff
 
-# White
-color7  #cbced3
-color15 #d0d3d8
-
-# Cursor
-cursor #cbced3
-cursor_text_color #a5b6cf
+# white
+color7 #f8f8f2
+color15 #ffffff
 
 # Selection highlight
 selection_foreground #a5b6cf

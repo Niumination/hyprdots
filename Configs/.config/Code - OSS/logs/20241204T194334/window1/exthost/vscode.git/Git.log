@@ -1,0 +1,72 @@
+2024-12-04 19:43:52.144 [info] [main] Log level: Info
+2024-12-04 19:43:52.144 [info] [main] Validating found git in: "git"
+2024-12-04 19:43:52.144 [info] [main] Using git "2.47.1" from "git"
+2024-12-04 19:43:52.144 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-04 19:43:52.144 [info] > git rev-parse --show-toplevel [907ms]
+2024-12-04 19:43:52.145 [info] > git rev-parse --git-dir --git-common-dir [19ms]
+2024-12-04 19:43:52.207 [info] [Model][openRepository] Opened repository: /home/zaryu/GitHub/hyprdots
+2024-12-04 19:43:52.300 [info] > git rev-parse --show-toplevel [31ms]
+2024-12-04 19:43:52.306 [info] > git config --get commit.template [61ms]
+2024-12-04 19:43:52.390 [info] > git rev-parse --show-toplevel [32ms]
+2024-12-04 19:43:52.414 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [35ms]
+2024-12-04 19:43:52.420 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-04 19:43:52.446 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-04 19:43:52.532 [info] > git rev-parse --show-toplevel [61ms]
+2024-12-04 19:43:52.537 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-04 19:43:52.583 [info] > git status -z -uall [90ms]
+2024-12-04 19:43:52.584 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [62ms]
+2024-12-04 19:43:52.686 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [38ms]
+2024-12-04 19:43:52.724 [info] > git config --local branch.main.vscode-merge-base [9ms]
+2024-12-04 19:43:52.753 [info] > git config --get commit.template [70ms]
+2024-12-04 19:43:52.755 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [5ms]
+2024-12-04 19:43:52.883 [info] > git check-ignore -v -z --stdin [34ms]
+2024-12-04 19:43:52.887 [info] > git merge-base refs/heads/main refs/remotes/origin/main [101ms]
+2024-12-04 19:43:52.974 [info] > git show --textconv :Scripts/.extra/custom_flat.lst [39ms]
+2024-12-04 19:43:52.975 [info] > git ls-files --stage -- /home/zaryu/GitHub/hyprdots/Scripts/.extra/custom_flat.lst [17ms]
+2024-12-04 19:43:53.000 [info] > git diff --name-status -z --diff-filter=ADMR 95c66b0f6ab29ca28350dbb1fda622ce7261d7c9...refs/remotes/origin/main [92ms]
+2024-12-04 19:43:53.005 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [124ms]
+2024-12-04 19:43:53.199 [info] > git cat-file -s 514f149c474f7abf4811e3f9e80a1bb66604ad01 [202ms]
+2024-12-04 19:43:53.266 [info] > git status -z -uall [35ms]
+2024-12-04 19:43:53.267 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [14ms]
+2024-12-04 19:43:54.414 [info] > git check-ignore -v -z --stdin [7ms]
+2024-12-04 19:44:02.691 [info] > git check-ignore -v -z --stdin [6ms]
+2024-12-04 19:44:53.726 [info] [main] Log level: Info
+2024-12-04 19:44:53.726 [info] [main] Validating found git in: "git"
+2024-12-04 19:44:53.726 [info] [main] Using git "2.47.1" from "git"
+2024-12-04 19:44:53.726 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-04 19:44:53.726 [info] > git rev-parse --show-toplevel [2509ms]
+2024-12-04 19:44:54.444 [info] > git rev-parse --git-dir --git-common-dir [389ms]
+2024-12-04 19:44:54.670 [info] [Model][openRepository] Opened repository: /home/zaryu/GitHub/hyprdots
+2024-12-04 19:44:54.947 [info] > git rev-parse --show-toplevel [109ms]
+2024-12-04 19:44:54.947 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:54.960 [info] > git config --get commit.template [163ms]
+2024-12-04 19:44:55.134 [info] > git rev-parse --show-toplevel [94ms]
+2024-12-04 19:44:55.134 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:55.247 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [130ms]
+2024-12-04 19:44:55.273 [info] > git rev-parse --show-toplevel [76ms]
+2024-12-04 19:44:55.326 [info] > git rev-parse --show-toplevel [9ms]
+2024-12-04 19:44:55.612 [info] > git status -z -uall [207ms]
+2024-12-04 19:44:55.613 [info] > git check-ignore -v -z --stdin [25ms]
+2024-12-04 19:44:55.617 [info] > git rev-parse --show-toplevel [88ms]
+2024-12-04 19:44:55.631 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [143ms]
+2024-12-04 19:44:55.900 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [120ms]
+2024-12-04 19:44:55.989 [info] > git config --local branch.main.vscode-merge-base [25ms]
+2024-12-04 19:44:56.029 [info] > git config --get commit.template [154ms]
+2024-12-04 19:44:56.032 [info] > git rev-parse --show-toplevel [190ms]
+2024-12-04 19:44:56.084 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/main refs/remotes/origin/main [61ms]
+2024-12-04 19:44:56.378 [info] > git merge-base refs/heads/main refs/remotes/origin/main [247ms]
+2024-12-04 19:44:56.422 [info] > git rev-parse --show-toplevel [339ms]
+2024-12-04 19:44:56.422 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:56.646 [info] > git diff --name-status -z --diff-filter=ADMR 95c66b0f6ab29ca28350dbb1fda622ce7261d7c9...refs/remotes/origin/main [226ms]
+2024-12-04 19:44:56.650 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/main refs/remotes/main [315ms]
+2024-12-04 19:44:56.663 [info] > git rev-parse --show-toplevel [35ms]
+2024-12-04 19:44:56.663 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:56.784 [info] > git rev-parse --show-toplevel [37ms]
+2024-12-04 19:44:56.784 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:56.940 [info] > git status -z -uall [86ms]
+2024-12-04 19:44:56.946 [info] > git rev-parse --show-toplevel [27ms]
+2024-12-04 19:44:56.946 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:56.947 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [58ms]
+2024-12-04 19:44:57.048 [info] > git rev-parse --show-toplevel [18ms]
+2024-12-04 19:44:57.048 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-04 19:44:57.050 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
