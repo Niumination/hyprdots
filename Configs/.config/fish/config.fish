@@ -1,3 +1,4 @@
+nerdfetch
 set -g fish_greeting
 
 if status is-interactive
@@ -20,3 +21,13 @@ abbr .5 'cd ../../../../..'
 
 # Always mkdir a path (this doesn't inhibit functionality to make a single dir)
 abbr mkdir 'mkdir -p'
+
+
+#NIX ALIASES
+alias hms='home-manager switch'
+alias ns='nix-store --gc'
+alias nsall='nix-collect-garbage -d'
+alias nel='nix-env -q'
+alias neg='nix-env --list-generations'
+alias hmg='home-manager generations'
+alias hmp='home-manager packages'

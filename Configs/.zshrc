@@ -1,3 +1,5 @@
+fastfetch
+
 # Oh-my-zsh installation path
 ZSH=/usr/share/oh-my-zsh/
 
@@ -5,7 +7,7 @@ ZSH=/usr/share/oh-my-zsh/
 source /usr/share/zsh-theme-powerlevel10k/powerlevel10k.zsh-theme
 
 # List of plugins used
-plugins=()
+plugins=(git sudo zsh-256color zsh-autosuggestions zsh-syntax-highlighting)
 source $ZSH/oh-my-zsh.sh
 
 # In case a command is not found, try to find the package that has it
@@ -87,3 +89,38 @@ alias mkdir='mkdir -p'
 
 # Display Pokemon
 #pokemon-colorscripts --no-title -r 1,3,6
+#
+
+
+# Custom Aliases
+alias v='nvim'
+alias vi='nvim'
+alias va='vim'
+alias cat='bat'
+#alias nix='fish'
+alias 'e.'='exit'
+
+if [ -e /home/zaryu/.nix-profile/etc/profile.d/nix.sh ]; then . /home/zaryu/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
+
+#NIX ALIASES
+alias hms='home-manager switch'
+alias ns='nix-store --gc'
+alias nsall='nix-collect-garbage -d'
+alias nel='nix-env -q'
+alias neg='nix-env --list-generations'
+alias hmg='home-manager generations'
+alias hmp='home-manager packages'
+alias nx='cd /home/zaryu/GitHub/hyprnix'
+alias sddmbg='cd /usr/share/sddm/themes/sequoia/backgrounds'
+alias gdir='cd /home/zaryu/GitHub'
+
+#GIT ALIASES
+alias ga='git add .'
+alias gc='git commit -m'
+alias gpm='git push -u origin main'
+alias gpms='git push -u origin master'
+alias gs='git status'
+alias gl='git log'
+
+# PACMAN
+alias repairpac='sudo pacman -Qknq | cut -d' ' -f 1 | sudo pacman -S -'

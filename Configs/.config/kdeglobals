@@ -2,10 +2,7 @@
 TerminalApplication=kitty
 
 [Icons]
-Theme=Will be overwritten by themeswitch
+Theme=Vivid-Glassy-Dark-Icons
 
-[Colors:View]
-BackgroundNormal=#00000000
-
-[UiSettings]
-ColorScheme=*
+[KShortcutsDialog Settings]
+Dialog Size=600,480

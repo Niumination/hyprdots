@@ -1,0 +1,23 @@
+[Added Associations]
+application/json=nvim.desktop;zen-alpha.desktop;org.xfce.mousepad.desktop;vim.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;kitty-open.desktop;nvim.desktop;vim.desktop;
+image/jpeg=org.gnome.Loupe.desktop;chromium.desktop;firefox.desktop;swappy.desktop;
+image/png=org.gnome.Loupe.desktop;swappy.desktop;chromium.desktop;
+text/plain=org.xfce.mousepad.desktop;nvim.desktop;vim.desktop;
+video/mp4=vlc.desktop;
+video/x-matroska=vlc.desktop;umpv.desktop;mpv.desktop;
+
+[Default Applications]
+application/json=nvim.desktop;
+application/x-shellscript=org.xfce.mousepad.desktop;
+image/jpeg=org.gnome.Loupe.desktop;
+image/png=org.gnome.Loupe.desktop;
+inode/directory=org.kde.dolphin.desktop
+text/html=chromium.desktop
+text/plain=org.xfce.mousepad.desktop;
+video/mp4=vlc.desktop;
+video/x-matroska=vlc.desktop;
+x-scheme-handler/about=chromium.desktop
+x-scheme-handler/http=chromium.desktop
+x-scheme-handler/https=chromium.desktop
+x-scheme-handler/unknown=chromium.desktop
