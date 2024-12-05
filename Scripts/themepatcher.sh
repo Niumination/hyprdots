@@ -135,9 +135,9 @@ check_tars() {
     # Using case we can have a predictable output
     local gsVal="$(
         case "${gsLow}" in
-        #sddm
-        #    grep "^[[:space:]]*\$SDDM[-_]THEME\s*=" "${Fav_Theme_Dir}/hypr.theme" | cut -d '=' -f2 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
-        #    ;;
+        sddm)
+            grep "^[[:space:]]*\$SDDM[-_]THEME\s*=" "${Fav_Theme_Dir}/hypr.theme" | cut -d '=' -f2 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
+            ;;
         gtk)
             grep "^[[:space:]]*\$GTK[-_]THEME\s*=" "${Fav_Theme_Dir}/hypr.theme" | cut -d '=' -f2 | sed 's/^[[:space:]]*//;s/[[:space:]]*$//'
             ;;
@@ -181,7 +181,7 @@ check_tars() {
 check_tars Gtk --mandatory
 check_tars Icon
 check_tars Cursor
-##check_tars Sddm
+check_tars Sddm
 check_tars Font
 check_tars Document-Font
 check_tars Monospace-Font

@@ -77,6 +77,3 @@ fastfetch                                              # system information fetc
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde
-
-# --------------------------------------------------- // ZARYU
-#pyprland-git                                           # python bindings for hyprland  
