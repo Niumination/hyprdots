@@ -181,7 +181,7 @@ check_tars() {
 check_tars Gtk --mandatory
 check_tars Icon
 check_tars Cursor
-check_tars Sddm
+##check_tars Sddm
 check_tars Font
 check_tars Document-Font
 check_tars Monospace-Font
