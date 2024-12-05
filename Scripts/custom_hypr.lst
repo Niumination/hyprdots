@@ -59,7 +59,7 @@ qt5-wayland                                            # wayland support in qt5
 qt6-wayland                                            # wayland support in qt6
 
 # --------------------------------------------------- // Applications
-#firefox                                                # browser
+chromium                                               # browser
 kitty                                                  # terminal
 dolphin                                                # kde file manager
 ark                                                    # kde file archiver
@@ -77,3 +77,6 @@ fastfetch                                              # system information fetc
 
 # --------------------------------------------------- // HyDE
 hyde-cli-git                                           # cli tool to manage hyde
+
+# --------------------------------------------------- // ZARYU
+pyprland-git                                           # python bindings for hyprland  
