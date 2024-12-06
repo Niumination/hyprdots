@@ -39,4 +39,4 @@ Y|Y|${HOME}/.config/hypr|keybindings.conf monitors.conf userprefs.conf pyprland.
 Y|Y|${HOME}/.config/hypr/pyprland.d|layout_center.toml scratchpads.toml shortcuts.toml variables.toml|hyprland
 Y|Y|${HOME}/.config/hypr/plugins|hyprexpo.conf hyprspace.conf plugins.conf|hyprland
 Y|Y|${HOME}/.config|chrome-flags.conf|chromium
-Y|Y|${HOME}/.local/share/hyprpm/hyprland-plugins|borders-plus-plus.so csgo-vulkan-fix.so hyprbars.so hyprexpo.so hyprtrails.so hyprwinwrap.so state.toml|hyprland
+Y|Y|${HOME}/.config/nwg-dock-hyprland|launch.sh style.css|nwg-dock-hyprland
