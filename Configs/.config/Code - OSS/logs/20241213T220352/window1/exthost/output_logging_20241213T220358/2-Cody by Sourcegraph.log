@@ -1,0 +1,529 @@
+█ ChatsController:constructor init:
+█ telemetry-v2 recordEvent: cody.extension/savedLogin:
+█ auth Authenticating to https://sourcegraph.com/...:
+█ ModelsService User model preferences changed: {"defaults":{"chat":"anthropic::2023-06-01::claude-3.5-sonnet","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{}}
+█ auth Authentication succeed to endpoint https://sourcegraph.com/:
+█ telemetry-v2 recordEvent: cody.auth/connected:
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags2
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags-hyprpanel
+█ ClientConfigSingleton refreshing configuration:
+█ Autocomplete:initialized using "dotcom-feature-flags": "fireworks::deepseek-coder-v2-lite-base":
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ModelsService new models API enabled:
+█ ModelsService ModelsData changed: 16 primary models
+█ UpstreamHealth Ping took 1868ms (Gateway: 677ms):
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5aeb11d6-3b96-48fa-b206-99885a6efb52":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "278facfb-7063-42ea-a42a-d02f988d4c20":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "073efedc-6ae3-41f2-9118-2e25074eb4d0":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6c9452ba-7319-4683-aa64-df5e63c79496":
+█ Autocomplete:onComplete duration:"1392ms" stopReason:"stop" outputChannelId:"5aeb11d6-3b96-48fa-b206-99885a6efb52":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "8478509b-8e14-4217-aa6a-8dceecd3a67b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9ab2a6a7-f08f-441e-a71f-c650f716d4af":
+█ Autocomplete:onComplete duration:"1280ms" stopReason:"stop" outputChannelId:"073efedc-6ae3-41f2-9118-2e25074eb4d0":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1053ms" stopReason:"stop" outputChannelId:"8478509b-8e14-4217-aa6a-8dceecd3a67b":
+█ Autocomplete:onComplete duration:"945ms" stopReason:"stop" outputChannelId:"9ab2a6a7-f08f-441e-a71f-c650f716d4af":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c21da308-7ae3-43aa-a19a-bf39063f3a29":
+█ Autocomplete:onComplete duration:"864ms" stopReason:"stop" outputChannelId:"c21da308-7ae3-43aa-a19a-bf39063f3a29":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "eb356e7a-bdb0-43b2-bcf1-fe669cac15d3":
+█ Autocomplete:onComplete duration:"1004ms" stopReason:"stop" outputChannelId:"eb356e7a-bdb0-43b2-bcf1-fe669cac15d3":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e127d846-4416-40f0-9b7b-6d16470aeb0e":
+█ Autocomplete:onComplete duration:"1337ms" stopReason:"stop" outputChannelId:"e127d846-4416-40f0-9b7b-6d16470aeb0e":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "97db5475-436a-4350-b1bb-7e0bbec4d5fe":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f5e4382c-fefd-4533-87e6-4691a5639c81":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2241af61-26b2-4b48-809b-ef0de04de1cf":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "d75c7cd6-a0b4-4154-8afe-13ff36140e4d":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "bf5cd3b2-ee6f-48d9-8fea-6c1573fbd760":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5eff8d20-c9b4-4929-a094-2949e69b57a4":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1004ms" stopReason:"cody-request-aborted" outputChannelId:"f5e4382c-fefd-4533-87e6-4691a5639c81":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "7dccdb8f-6b3a-484c-a1e3-1b37fc28b4bf":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1251ms" stopReason:"cody-request-aborted" outputChannelId:"d75c7cd6-a0b4-4154-8afe-13ff36140e4d":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1246ms" stopReason:"cody-request-aborted" outputChannelId:"5eff8d20-c9b4-4929-a094-2949e69b57a4":
+█ Autocomplete:onComplete duration:"1347ms" stopReason:"cody-request-aborted" outputChannelId:"7dccdb8f-6b3a-484c-a1e3-1b37fc28b4bf":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "159c9387-ee3c-4d9b-91cc-19bb29501279":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2711c093-ec57-46eb-83ad-60feb76cd2f1":
+█ Autocomplete:onComplete duration:"1317ms" stopReason:"cody-request-aborted" outputChannelId:"2711c093-ec57-46eb-83ad-60feb76cd2f1":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cd8e1c78-8d54-485b-8aec-30e4079b3e2f":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1396ms" stopReason:"stop" outputChannelId:"cd8e1c78-8d54-485b-8aec-30e4079b3e2f":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c17b9988-d2ba-45ad-b2e6-63452eddc637":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a2ce4880-54d1-4a11-be69-f25769f78f80":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"929ms" stopReason:"cody-request-aborted" outputChannelId:"c17b9988-d2ba-45ad-b2e6-63452eddc637":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1021ms" stopReason:"cody-request-aborted" outputChannelId:"a2ce4880-54d1-4a11-be69-f25769f78f80":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9f4e8aba-0408-41f1-9ae6-5cf3208a6264":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2f349ff0-7966-448a-8aff-265c084ea5cb":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1266ms" stopReason:"cody-request-aborted" outputChannelId:"2f349ff0-7966-448a-8aff-265c084ea5cb":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a84be57e-ca0e-482e-a4b6-17530626e39b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "74d623a4-43f9-4c1a-8f68-e2dbf0520e09":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"870ms" stopReason:"cody-request-aborted" outputChannelId:"a84be57e-ca0e-482e-a4b6-17530626e39b":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1149ms" stopReason:"cody-request-aborted" outputChannelId:"74d623a4-43f9-4c1a-8f68-e2dbf0520e09":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "12663adb-379b-4282-bdcd-3651627a2511":
+█ Autocomplete:onComplete duration:"1138ms" stopReason:"stop" outputChannelId:"12663adb-379b-4282-bdcd-3651627a2511":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e80baf54-da3b-4fdf-a398-2fa87c50bcb9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e7332460-be12-49b4-9090-e0202c184552":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5aa571c2-ffd9-4439-b116-4b24c6366382":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "40b98e63-37ff-46a4-a513-bc4714cdb07b":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1492ms" stopReason:"cody-request-aborted" outputChannelId:"e80baf54-da3b-4fdf-a398-2fa87c50bcb9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "4a7d093f-51d1-423e-9952-ff4df1195ebf":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "414dd67a-cbc7-4a21-8966-22017a081319":
+█ Autocomplete:onComplete duration:"1360ms" stopReason:"stop" outputChannelId:"e7332460-be12-49b4-9090-e0202c184552":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "dd3bf34a-8916-48f8-8e8a-8912fafdd68b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "15447a75-8ff4-4b7f-add8-3215fb94b4ef":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1229ms" stopReason:"cody-request-aborted" outputChannelId:"40b98e63-37ff-46a4-a513-bc4714cdb07b":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1051ms" stopReason:"stop" outputChannelId:"4a7d093f-51d1-423e-9952-ff4df1195ebf":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1068ms" stopReason:"cody-request-aborted" outputChannelId:"414dd67a-cbc7-4a21-8966-22017a081319":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:onComplete duration:"1762ms" stopReason:"stop" outputChannelId:"15447a75-8ff4-4b7f-add8-3215fb94b4ef":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3534ee55-9996-4495-9636-d9e7cfc9cf73":
+█ Autocomplete:onComplete duration:"1177ms" stopReason:"stop" outputChannelId:"3534ee55-9996-4495-9636-d9e7cfc9cf73":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "87a200b3-5d7e-471b-ad42-173309db3840":
+█ Autocomplete:onComplete duration:"1277ms" stopReason:"stop" outputChannelId:"87a200b3-5d7e-471b-ad42-173309db3840":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "051abb82-a8d1-4348-87b3-91d3179fb361":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"932ms" stopReason:"cody-request-aborted" outputChannelId:"051abb82-a8d1-4348-87b3-91d3179fb361":
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "8c0881d9-ce55-427d-bbab-ae94dd6cd41f":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3dc9a436-279d-499b-96bd-56f01155a0ff":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c55100e2-c3b8-44ab-a75c-d9215f4c5078":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a6f77f12-0641-4d39-9ca1-29128c666881":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5e777680-707f-4cab-b244-47f59eda1bd1":
+█ Autocomplete:onComplete duration:"991ms" stopReason:"stop" outputChannelId:"3dc9a436-279d-499b-96bd-56f01155a0ff":
+█ Autocomplete:onComplete duration:"886ms" stopReason:"stop" outputChannelId:"a6f77f12-0641-4d39-9ca1-29128c666881":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "650330c7-d60d-4f1c-bc56-5d703da884a8":
+█ Autocomplete:onComplete duration:"851ms" stopReason:"stop" outputChannelId:"5e777680-707f-4cab-b244-47f59eda1bd1":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "11dd3d23-ac08-4e97-9a06-08df861d16f9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a75aa8ff-d18b-45b1-bf78-a522adc3160f":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "bbf939da-e58f-457f-b076-2d907ae1ad85":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "293a0b07-7f25-47e1-8416-3cb3379cb1c3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5c349e8e-77d8-48af-9e55-dcab88792e25":
+█ Autocomplete:onComplete duration:"818ms" stopReason:"stop" outputChannelId:"11dd3d23-ac08-4e97-9a06-08df861d16f9":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1208ms" stopReason:"cody-request-aborted" outputChannelId:"bbf939da-e58f-457f-b076-2d907ae1ad85":
+█ Autocomplete:onComplete duration:"1290ms" stopReason:"stop" outputChannelId:"5c349e8e-77d8-48af-9e55-dcab88792e25":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "0e30ea55-2a6b-4e68-93db-1110760602dc":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2a0777af-91a0-4369-ab09-3de039d8d35a":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3c1bc023-49a7-4d02-bbc6-3a96c8dfc7b3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "b33dc6b6-768b-46b7-a106-94ed707a02c8":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1e79a600-0608-4be8-babf-a8ab03af2dfa":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2c0b8237-de55-4688-90ba-121442b89d3b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6cdd163f-c718-476d-a2c4-1219ef813cd8":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "fe2f1857-20c8-45c6-8101-4b8018bf691c":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "87c152bb-24e6-4f1e-acdc-cccbc2f7a603":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1306ms" stopReason:"cody-request-aborted" outputChannelId:"b33dc6b6-768b-46b7-a106-94ed707a02c8":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1438ms" stopReason:"cody-request-aborted" outputChannelId:"2c0b8237-de55-4688-90ba-121442b89d3b":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1348ms" stopReason:"cody-request-aborted" outputChannelId:"fe2f1857-20c8-45c6-8101-4b8018bf691c":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:onComplete duration:"1627ms" stopReason:"stop" outputChannelId:"87c152bb-24e6-4f1e-acdc-cccbc2f7a603":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "14dac20a-013a-4695-bac0-f9173244a945":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1291ms" stopReason:"cody-request-aborted" outputChannelId:"14dac20a-013a-4695-bac0-f9173244a945":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "33a51fe8-c887-4254-8ac9-c0c4e9d68285":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "d07dff3f-c298-47b0-bec2-2d467673d499":
+█ Autocomplete:onComplete duration:"2158ms" stopReason:"stop" outputChannelId:"d07dff3f-c298-47b0-bec2-2d467673d499":
+█ Autocomplete:onComplete duration:"2868ms" stopReason:"length" outputChannelId:"33a51fe8-c887-4254-8ac9-c0c4e9d68285":
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ executeDocCommand executing:
+█ executeDocCommand selectionText: const handleRevealRevealer = (self: Revealer<Child, Attribute>, proper...:
+█ telemetry-v2 recordEvent: cody.command.doc/executed:
+█ Autocomplete:onComplete duration:"2475ms" stopReason:"undefined" outputChannelId:"2f8d8b56-c5d8-4e3d-999d-c132f018a3a5":
+█ telemetry-v2 recordEvent: cody.fixup.response/hasCode:
+█ FixupController:apply applying:
+█ FixupController:edit inserting:
+█ telemetry-v2 recordEvent: cody.fixup.apply/succeeded:
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.fixup.user/accepted:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "abab55cd-160b-4571-aaf9-3388df86f2ed":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "373bb516-6da2-469e-8bdb-a9e547529de9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "925ef252-e451-4328-9427-fad3b8319ff8":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a5e58661-bebe-472f-b519-4fb7861d5b61":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "50da761a-9059-439b-868a-e7bcd485d022":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "d1c090e7-0646-4c09-8bbc-ce03706ccdd0":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "541d63b7-c9bb-4fe8-8b02-8e6f0fbfe798":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2050ms" stopReason:"cody-request-aborted" outputChannelId:"925ef252-e451-4328-9427-fad3b8319ff8":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2201ms" stopReason:"cody-request-aborted" outputChannelId:"50da761a-9059-439b-868a-e7bcd485d022":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2750ms" stopReason:"cody-request-aborted" outputChannelId:"373bb516-6da2-469e-8bdb-a9e547529de9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c7a1381f-73d4-4c17-b7c8-f9e2e0d61324":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "10a5e142-35fa-4f95-a271-baf77fb2d0b0":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2724418a-fea3-408f-9ca5-81d51d2a4dbc":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "dd65f13f-00f1-467b-9759-c661c33fe4d6":
+█ Autocomplete:onComplete duration:"2346ms" stopReason:"stop" outputChannelId:"2724418a-fea3-408f-9ca5-81d51d2a4dbc":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3a392f31-9d6c-4817-866c-9d2e1dc98a66":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2967ms" stopReason:"stop" outputChannelId:"c7a1381f-73d4-4c17-b7c8-f9e2e0d61324":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2444ms" stopReason:"stop" outputChannelId:"dd65f13f-00f1-467b-9759-c661c33fe4d6":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6cd3b15e-2293-4377-8c27-6c6454315055":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1e1de1a8-d5ec-484b-9473-16aeb5a2736b":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1274ms" stopReason:"cody-request-aborted" outputChannelId:"6cd3b15e-2293-4377-8c27-6c6454315055":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1937ms" stopReason:"stop" outputChannelId:"3a392f31-9d6c-4817-866c-9d2e1dc98a66":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1506ms" stopReason:"cody-request-aborted" outputChannelId:"1e1de1a8-d5ec-484b-9473-16aeb5a2736b":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "979ecec4-46f8-4602-837c-8482d2f8dc97":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a651977d-cfb4-4b7f-b1eb-a4ee2a61b485":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1007ms" stopReason:"cody-request-aborted" outputChannelId:"a651977d-cfb4-4b7f-b1eb-a4ee2a61b485":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2c1e9bae-3ec7-466a-85c4-f1c57f637008":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a00985fd-c3a8-4f9f-8613-aab27d329439":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "03b5f353-e779-444c-9b2f-71dbf9b00f92":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2451ms" stopReason:"stop" outputChannelId:"2c1e9bae-3ec7-466a-85c4-f1c57f637008":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1618ms" stopReason:"stop" outputChannelId:"03b5f353-e779-444c-9b2f-71dbf9b00f92":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f6cf86a8-f23e-41e1-8409-06d0890eea21":
+█ telemetry-v2 recordEvent: cody.fixup.persistence/present:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1246ms" stopReason:"stop" outputChannelId:"f6cf86a8-f23e-41e1-8409-06d0890eea21":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2ed604b0-bfe5-4ccb-93b6-f5b33be70a2e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1219ms" stopReason:"cody-request-aborted" outputChannelId:"2ed604b0-bfe5-4ccb-93b6-f5b33be70a2e":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "d41b5775-a728-452c-9b2c-ea4828ce8ef6":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1bd3601e-f3a6-44a1-9a07-d4808fe3b153":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "19cf0c90-e7e3-4e21-9a89-730de0b711f0":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1172ms" stopReason:"stop" outputChannelId:"d41b5775-a728-452c-9b2c-ea4828ce8ef6":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1222ms" stopReason:"cody-request-aborted" outputChannelId:"1bd3601e-f3a6-44a1-9a07-d4808fe3b153":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1261ms" stopReason:"stop" outputChannelId:"19cf0c90-e7e3-4e21-9a89-730de0b711f0":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "862977c3-8f40-4831-a7d7-f1b2fa8dfb45":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1036ms" stopReason:"cody-request-aborted" outputChannelId:"862977c3-8f40-4831-a7d7-f1b2fa8dfb45":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "047c65b7-2e7a-4f36-aea8-e79f747c603c":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1133ms" stopReason:"stop" outputChannelId:"047c65b7-2e7a-4f36-aea8-e79f747c603c":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "b0eabbd2-16d0-4e66-afc7-bd0f30a646d3":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1239ms" stopReason:"stop" outputChannelId:"b0eabbd2-16d0-4e66-afc7-bd0f30a646d3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e0e5fbcf-e195-4b3e-8f9e-cf1daa203ca3":
+█ Autocomplete:onComplete duration:"1102ms" stopReason:"stop" outputChannelId:"e0e5fbcf-e195-4b3e-8f9e-cf1daa203ca3":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "79147294-bcd4-4177-850c-572673663f44":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1b433489-2307-4400-b7ad-1799a5fd2741":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1257ms" stopReason:"stop" outputChannelId:"79147294-bcd4-4177-850c-572673663f44":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1219ms" stopReason:"cody-request-aborted" outputChannelId:"1b433489-2307-4400-b7ad-1799a5fd2741":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6d38440b-e8eb-45f0-bd48-c0d894e358ee":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f9545e64-9607-4a74-bda3-f34686fc3322":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1032ms" stopReason:"cody-request-aborted" outputChannelId:"6d38440b-e8eb-45f0-bd48-c0d894e358ee":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1068ms" stopReason:"stop" outputChannelId:"f9545e64-9607-4a74-bda3-f34686fc3322":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "add0cc69-19d7-46a1-b171-a108e5d6c4c8":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1206ms" stopReason:"cody-request-aborted" outputChannelId:"add0cc69-19d7-46a1-b171-a108e5d6c4c8":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "59c3b62c-842e-45bb-b95b-6addfd46ef76":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a8a7d1fa-a4ec-4d9a-9f63-3235e276e80d":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1333ms" stopReason:"cody-request-aborted" outputChannelId:"59c3b62c-842e-45bb-b95b-6addfd46ef76":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "757594b5-50e8-48fc-bb18-7d1a791856de":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1402ms" stopReason:"cody-request-aborted" outputChannelId:"a8a7d1fa-a4ec-4d9a-9f63-3235e276e80d":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1205ms" stopReason:"stop" outputChannelId:"757594b5-50e8-48fc-bb18-7d1a791856de":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e43d44b9-6262-4a11-83f2-fc297f2c03d5":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "9d5201a2-a28c-42ee-b4d7-e4ef63b66bcd":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "271282c3-d2cd-4828-b47c-59b8c6562862":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "7e660c46-a0f4-4ff9-8f1a-2e2f7f0496d6":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1122ms" stopReason:"stop" outputChannelId:"9d5201a2-a28c-42ee-b4d7-e4ef63b66bcd":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1303ms" stopReason:"stop" outputChannelId:"271282c3-d2cd-4828-b47c-59b8c6562862":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1699ms" stopReason:"cody-request-aborted" outputChannelId:"7e660c46-a0f4-4ff9-8f1a-2e2f7f0496d6":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ded878a3-d6b7-4bf2-a618-0320cabf7966":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6ca36e42-64f7-4454-8aec-6d1bb166d0c5":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1161ms" stopReason:"stop" outputChannelId:"ded878a3-d6b7-4bf2-a618-0320cabf7966":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5a44abcf-9c46-4047-ad9d-24cf862f615c":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1213ms" stopReason:"cody-request-aborted" outputChannelId:"6ca36e42-64f7-4454-8aec-6d1bb166d0c5":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "768c30f3-6b75-42ae-ada8-663542a083c1":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a472e0b4-b1f7-4895-ba41-25b0dab2fefb":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "812c4ab6-45d5-4704-86e8-f20462808e9c":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1438ms" stopReason:"cody-request-aborted" outputChannelId:"5a44abcf-9c46-4047-ad9d-24cf862f615c":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "b7ac6401-2959-435d-98f4-38c36a53adfe":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1267ms" stopReason:"stop" outputChannelId:"a472e0b4-b1f7-4895-ba41-25b0dab2fefb":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1289ms" stopReason:"stop" outputChannelId:"b7ac6401-2959-435d-98f4-38c36a53adfe":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "0ba7c903-b633-4cf2-9f44-f64338b08a08":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "10303255-ac4b-4b35-abcd-65cbed0ac37e":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "dcccce67-7f42-47f7-be8c-11fadad83685":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1215ms" stopReason:"cody-request-aborted" outputChannelId:"0ba7c903-b633-4cf2-9f44-f64338b08a08":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2b2ae942-70ee-4a30-8d91-c47f07ec22e0":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1439ms" stopReason:"stop" outputChannelId:"10303255-ac4b-4b35-abcd-65cbed0ac37e":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "de9ca0c4-a02e-41cc-a835-4622a48d5ee7":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "64aad009-3807-4a3f-b85a-b499c6195d42":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ba773a70-24cd-4e6c-b303-09b8d3a6acbb":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1300ms" stopReason:"stop" outputChannelId:"dcccce67-7f42-47f7-be8c-11fadad83685":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1383ms" stopReason:"stop" outputChannelId:"2b2ae942-70ee-4a30-8d91-c47f07ec22e0":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1227ms" stopReason:"stop" outputChannelId:"ba773a70-24cd-4e6c-b303-09b8d3a6acbb":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c821b553-4baf-43e8-b952-a4339cb06c72":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ffdf90e2-558e-4569-ad42-c333272a4c8e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1045ms" stopReason:"stop" outputChannelId:"c821b553-4baf-43e8-b952-a4339cb06c72":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5eef0ed0-e0ea-49a6-a96c-18e47f4b6777":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1032ms" stopReason:"stop" outputChannelId:"ffdf90e2-558e-4569-ad42-c333272a4c8e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1085ms" stopReason:"cody-request-aborted" outputChannelId:"5eef0ed0-e0ea-49a6-a96c-18e47f4b6777":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f8fa317d-9aa2-43a0-99f3-999e4cc62f0f":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "78b31ce6-1f0b-497e-a17c-ced542a7e53c":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "46762a22-f7a8-41e0-b477-92feaa47ed24":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1fca2e11-57b3-43d1-b651-236c5706b077":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1d02fc28-9fe4-449f-8d05-1401f597b75e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1300ms" stopReason:"stop" outputChannelId:"f8fa317d-9aa2-43a0-99f3-999e4cc62f0f":
+█ ClientConfigSingleton refreshing configuration:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c6e6fbf1-18c7-4205-b32c-d3c923b6a913":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "790eeebf-4378-4266-b253-84fc614c8083":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1198ms" stopReason:"cody-request-aborted" outputChannelId:"46762a22-f7a8-41e0-b477-92feaa47ed24":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1460ms" stopReason:"cody-request-aborted" outputChannelId:"1d02fc28-9fe4-449f-8d05-1401f597b75e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1256ms" stopReason:"cody-request-aborted" outputChannelId:"790eeebf-4378-4266-b253-84fc614c8083":
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "eee956a3-39e3-44f4-94ba-a1e75e87c4bf":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "0650ed71-c131-4022-9fb1-ac4ab7c068c2":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1086ms" stopReason:"stop" outputChannelId:"eee956a3-39e3-44f4-94ba-a1e75e87c4bf":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "27f31ffb-b9c4-4bcc-a4f9-23a484f95c6a":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "7b9ca916-329b-48af-bad0-eb945f84a7bf":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3c8c1bd8-587f-443a-a3c8-09decd2bf8f2":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1090ms" stopReason:"cody-request-aborted" outputChannelId:"0650ed71-c131-4022-9fb1-ac4ab7c068c2":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1360ms" stopReason:"stop" outputChannelId:"7b9ca916-329b-48af-bad0-eb945f84a7bf":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1433ms" stopReason:"stop" outputChannelId:"3c8c1bd8-587f-443a-a3c8-09decd2bf8f2":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "811c6b78-7235-41da-8e27-5deaeed87bc6":
+█ UpstreamHealth Ping took 607ms (Gateway: 1134ms):
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ce705c66-3263-434d-8288-188a2e10c019":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"967ms" stopReason:"stop" outputChannelId:"811c6b78-7235-41da-8e27-5deaeed87bc6":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1292ms" stopReason:"cody-request-aborted" outputChannelId:"ce705c66-3263-434d-8288-188a2e10c019":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "53709928-86f6-4588-b3a8-67b36793d342":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "4dee994c-a439-4b6c-89c2-eb2e2467cc47":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1126ms" stopReason:"cody-request-aborted" outputChannelId:"53709928-86f6-4588-b3a8-67b36793d342":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1040ms" stopReason:"stop" outputChannelId:"4dee994c-a439-4b6c-89c2-eb2e2467cc47":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "fce58985-7dee-445d-aa1d-ff1411aad4c3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c3b17471-aea3-49c3-8d67-cbf68cd4eb72":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"977ms" stopReason:"stop" outputChannelId:"fce58985-7dee-445d-aa1d-ff1411aad4c3":
+█ Autocomplete:onComplete duration:"943ms" stopReason:"stop" outputChannelId:"c3b17471-aea3-49c3-8d67-cbf68cd4eb72":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c7b58f7f-fba0-4832-a5df-4319c7ab3252":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"986ms" stopReason:"stop" outputChannelId:"c7b58f7f-fba0-4832-a5df-4319c7ab3252":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f1b201f7-6105-4ba1-ae12-339d4806f856":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "42854785-5c59-4eb6-aa52-a64d4b781090":
+█ Autocomplete:onComplete duration:"942ms" stopReason:"stop" outputChannelId:"42854785-5c59-4eb6-aa52-a64d4b781090":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "329e2c85-f4d0-4df2-8370-f97794b57e7a":
+█ Autocomplete:onComplete duration:"1126ms" stopReason:"stop" outputChannelId:"329e2c85-f4d0-4df2-8370-f97794b57e7a":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "201a73e2-695d-4e56-b106-c2d7aecbbb05":
+█ telemetry-v2 recordEvent: cody.completion/unexpectedAlreadySuggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:onComplete duration:"910ms" stopReason:"stop" outputChannelId:"201a73e2-695d-4e56-b106-c2d7aecbbb05":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "df06f9df-7da6-4d30-a4ae-eb787f3eb756":
+█ Autocomplete:onComplete duration:"979ms" stopReason:"stop" outputChannelId:"df06f9df-7da6-4d30-a4ae-eb787f3eb756":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a4cd77aa-1dd2-4538-bf60-01aa3dd5d4f6":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"755ms" stopReason:"cody-streaming-chunk" outputChannelId:"a4cd77aa-1dd2-4538-bf60-01aa3dd5d4f6":
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.fixup.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "291ee5d7-e0d3-4d21-8c0e-d889cdebf270":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"966ms" stopReason:"stop" outputChannelId:"291ee5d7-e0d3-4d21-8c0e-d889cdebf270":
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ ClientConfigSingleton refreshing configuration:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "59f10a63-62a3-45b9-b490-f7bc8e931626":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:onComplete duration:"2014ms" stopReason:"stop" outputChannelId:"59f10a63-62a3-45b9-b490-f7bc8e931626":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "649bd190-d54a-4b1c-b9de-4769d31bd504":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1a0aabfe-137e-4366-88a8-8f30f376494a":
+█ Autocomplete:onComplete duration:"799ms" stopReason:"stop" outputChannelId:"1a0aabfe-137e-4366-88a8-8f30f376494a":
+█ Autocomplete:onComplete duration:"1127ms" stopReason:"stop" outputChannelId:"649bd190-d54a-4b1c-b9de-4769d31bd504":
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1490e889-725a-4903-a615-5777a7d46746":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ff5329a0-024f-4565-a6e8-692b957bcf2d":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cc96f342-2555-4b89-b3cf-1ef8b858a1c7":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "73f3dee7-de99-4995-9ec8-0812aefe0f24":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "851715ca-5a0e-4c02-8f0d-671c104f5a79":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1378ms" stopReason:"cody-request-aborted" outputChannelId:"1490e889-725a-4903-a615-5777a7d46746":
+█ Autocomplete:onComplete duration:"1126ms" stopReason:"stop" outputChannelId:"ff5329a0-024f-4565-a6e8-692b957bcf2d":
+█ Autocomplete:onComplete duration:"1190ms" stopReason:"stop" outputChannelId:"cc96f342-2555-4b89-b3cf-1ef8b858a1c7":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"1329ms" stopReason:"cody-request-aborted" outputChannelId:"73f3dee7-de99-4995-9ec8-0812aefe0f24":
+█ Autocomplete:onComplete duration:"1079ms" stopReason:"stop" outputChannelId:"851715ca-5a0e-4c02-8f0d-671c104f5a79":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.fixup.persistence/present:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c391cada-a5ad-4a02-82c4-c4201ce8073c":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cd7453b5-8756-4084-bcbd-cd42686e19ab":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"918ms" stopReason:"cody-request-aborted" outputChannelId:"cd7453b5-8756-4084-bcbd-cd42686e19ab":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:onComplete duration:"976ms" stopReason:"cody-request-aborted" outputChannelId:"c391cada-a5ad-4a02-82c4-c4201ce8073c":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cb649a26-e541-4c1f-9665-e117c2abf8ec":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "aad93b81-20f9-4680-bbc3-497ea50b7743":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "299fcd58-c2d4-4677-9b9d-caefd78247d3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "bb03422c-84f4-40c9-8101-84075547c2ad":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "040da7fb-eb2f-4dcd-b1b7-ca9cfacb4bfa":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "e7042b9b-5544-46a9-891a-821b73c6ac43":
+█ Autocomplete:onComplete duration:"747ms" stopReason:"stop" outputChannelId:"299fcd58-c2d4-4677-9b9d-caefd78247d3":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ab50a465-83a6-455a-99fe-883e2bb1cc2e":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"2305ms" stopReason:"cody-request-aborted" outputChannelId:"cb649a26-e541-4c1f-9665-e117c2abf8ec":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "3b3ccd3e-cd8a-4ea3-a81d-4aacbd413c82":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"790ms" stopReason:"stop" outputChannelId:"e7042b9b-5544-46a9-891a-821b73c6ac43":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a2bacb77-6815-4b83-87f0-5d189d56c4a0":
+█ Autocomplete:onComplete duration:"906ms" stopReason:"stop" outputChannelId:"040da7fb-eb2f-4dcd-b1b7-ca9cfacb4bfa":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "ad2dda90-a5a4-449e-9959-8737a22dfa86":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"819ms" stopReason:"stop" outputChannelId:"3b3ccd3e-cd8a-4ea3-a81d-4aacbd413c82":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"842ms" stopReason:"stop" outputChannelId:"a2bacb77-6815-4b83-87f0-5d189d56c4a0":
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1089ms" stopReason:"stop" outputChannelId:"ad2dda90-a5a4-449e-9959-8737a22dfa86":
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ telemetry-v2 recordEvent: cody.completion.persistence/present:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.characters/flush:
+█ GraphQLTelemetryExporter Error exporting telemetry events:: Error: accessing Sourcegraph HTTP API:  Error: Network call was dispatched before DelegatingAgent was initialized (https://sourcegraph.com/.api/graphql?RecordTelemetryEvents)

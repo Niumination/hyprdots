@@ -1,0 +1,20 @@
+2024-12-13 21:12:30.908 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:12:30.905Z",
+  "timings": {
+    "close": "2024-12-13T14:12:30.905Z",
+    "error": "2024-12-13T14:12:30.904Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)\n\tat TCP.callbackTrampoline (node:internal/async_hooks:130:17)"
+    },
+    "socket": {
+      "start": "2024-12-13T14:12:30.209Z"
+    },
+    "start": "2024-12-13T14:12:30.180Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}

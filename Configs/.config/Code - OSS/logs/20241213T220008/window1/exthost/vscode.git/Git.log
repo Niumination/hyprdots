@@ -1,0 +1,54 @@
+2024-12-13 22:00:51.862 [info] [main] Log level: Info
+2024-12-13 22:00:51.862 [info] [main] Validating found git in: "git"
+2024-12-13 22:00:51.862 [info] [main] Using git "2.47.1" from "git"
+2024-12-13 22:00:51.862 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-13 22:00:51.862 [info] > git rev-parse --show-toplevel [355ms]
+2024-12-13 22:00:51.862 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:51.862 [info] > git rev-parse --show-toplevel [223ms]
+2024-12-13 22:00:52.438 [info] > git rev-parse --git-dir --git-common-dir [518ms]
+2024-12-13 22:00:52.560 [info] [Model][openRepository] Opened repository: /home/zaryu/.config/ags-hyprpanel
+2024-12-13 22:00:53.689 [info] > git rev-parse --show-toplevel [298ms]
+2024-12-13 22:00:53.689 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:53.691 [info] > git config --get commit.template [324ms]
+2024-12-13 22:00:53.925 [info] > git rev-parse --show-toplevel [98ms]
+2024-12-13 22:00:53.925 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:54.036 [info] > git rev-parse --show-toplevel [23ms]
+2024-12-13 22:00:54.036 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:54.039 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [127ms]
+2024-12-13 22:00:54.081 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-13 22:00:54.081 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:54.374 [info] > git status -z -uall [195ms]
+2024-12-13 22:00:54.374 [info] > git check-ignore -v -z --stdin [52ms]
+2024-12-13 22:00:54.388 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [115ms]
+2024-12-13 22:00:54.513 [info] > git rev-parse --show-toplevel [379ms]
+2024-12-13 22:00:54.513 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:00:54.792 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [307ms]
+2024-12-13 22:00:54.913 [info] > git config --local branch.master.vscode-merge-base [79ms]
+2024-12-13 22:00:54.961 [info] > git rev-parse --show-toplevel [283ms]
+2024-12-13 22:00:54.963 [info] > git config --get commit.template [332ms]
+2024-12-13 22:00:55.124 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/origin/master refs/remotes/origin/master [164ms]
+2024-12-13 22:00:55.633 [info] > git merge-base refs/heads/master refs/remotes/origin/master [460ms]
+2024-12-13 22:00:55.688 [info] > git rev-parse --show-toplevel [569ms]
+2024-12-13 22:00:55.772 [info] > git diff --name-status -z --diff-filter=ADMR 0555a84b302957695aa1f369e4f404835343b60a...refs/remotes/origin/master [84ms]
+2024-12-13 22:00:55.796 [info] > git for-each-ref --format=%(refname)%00%(upstream:short)%00%(objectname)%00%(upstream:track)%00%(upstream:remotename)%00%(upstream:remoteref) refs/heads/master refs/remotes/master [314ms]
+2024-12-13 22:00:55.890 [info] > git rev-parse --show-toplevel [120ms]
+2024-12-13 22:00:56.002 [info] > git rev-parse --show-toplevel [66ms]
+2024-12-13 22:00:56.236 [info] > git status -z -uall [195ms]
+2024-12-13 22:00:56.245 [info] > git rev-parse --show-toplevel [111ms]
+2024-12-13 22:00:56.246 [info] > git for-each-ref --sort -committerdate --format %(refname) %(objectname) %(*objectname) [155ms]
+2024-12-13 22:00:56.434 [info] > git rev-parse --show-toplevel [97ms]
+2024-12-13 22:00:56.549 [info] > git rev-parse --show-toplevel [71ms]
+2024-12-13 22:00:56.719 [info] > git rev-parse --show-toplevel [118ms]
+2024-12-13 22:00:56.899 [info] > git rev-parse --show-toplevel [63ms]
+2024-12-13 22:00:56.932 [info] > git rev-parse --show-toplevel [2ms]
+2024-12-13 22:00:56.966 [info] > git rev-parse --show-toplevel [6ms]
+2024-12-13 22:00:57.000 [info] > git rev-parse --show-toplevel [7ms]
+2024-12-13 22:00:57.072 [info] > git rev-parse --show-toplevel [37ms]
+2024-12-13 22:00:57.074 [info] [Model][doInitialScan] Initial repository scan completed - repositories (1), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-13 22:00:57.228 [info] > git show --textconv :config.js [102ms]
+2024-12-13 22:00:57.248 [info] > git rev-parse --show-toplevel [22ms]
+2024-12-13 22:00:57.257 [info] > git ls-files --stage -- /home/zaryu/.config/ags-hyprpanel/config.js [80ms]
+2024-12-13 22:00:57.404 [info] > git rev-parse --show-toplevel [71ms]
+2024-12-13 22:00:57.405 [info] > git cat-file -s 01d6ae869806a0d5eeea2d87f679e2e9ec5854e2 [124ms]
+2024-12-13 22:01:08.398 [info] > git rev-parse --show-toplevel [8ms]
+2024-12-13 22:01:08.398 [info] fatal: not a git repository (or any of the parent directories): .git

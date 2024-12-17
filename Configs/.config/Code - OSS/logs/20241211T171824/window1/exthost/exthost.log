@@ -1,0 +1,58 @@
+2024-12-11 17:18:31.582 [info] Extension host with pid 2150 started
+2024-12-11 17:18:31.582 [info] Skipping acquiring lock for /home/zaryu/.config/Code - OSS/User/workspaceStorage/778523bfcbe4b97d29c36126739e50a5.
+2024-12-11 17:18:32.211 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*', root cause: vscode.git
+2024-12-11 17:18:32.240 [info] ExtensionService#_doActivateExtension arrterian.nix-env-selector, startup: true, activationEvent: '*'
+2024-12-11 17:18:32.561 [info] ExtensionService#_doActivateExtension vscode.git, startup: true, activationEvent: '*'
+2024-12-11 17:18:32.877 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2024-12-11 17:18:33.248 [info] Eager extensions activated
+2024-12-11 17:18:33.630 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2024-12-11 17:18:33.642 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2024-12-11 17:18:33.733 [info] ExtensionService#_doActivateExtension jnoortheen.nix-ide, startup: false, activationEvent: 'onStartupFinished'
+2024-12-11 17:18:33.922 [info] ExtensionService#_doActivateExtension sourcegraph.cody-ai, startup: false, activationEvent: 'onStartupFinished'
+2024-12-11 17:18:37.903 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onLanguage'
+2024-12-11 17:18:38.011 [error] Error: AuthStatus is not initialized
+	at currentAuthStatus (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.48.1-universal/dist/extension.node.js:21933:11)
+	at /home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.48.1-universal/dist/extension.node.js:219197:27
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:156:35355)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.C (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:816)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:1033)
+	at Vw.onDidChangeWindowProperty (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16297)
+	at Vw.$onDidChangeWindowFocus (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:122:16108)
+	at py.S (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113311)
+	at py.Q (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:113091)
+	at py.M (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:112180)
+	at py.L (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:111285)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:110082)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at mh.value (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:13279)
+	at D.B (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:746)
+	at D.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:29:964)
+	at Vn.fire (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:31:9457)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11571)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+2024-12-11 17:18:45.498 [info] ExtensionService#_doActivateExtension vscode.configuration-editing, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-11 17:18:45.588 [info] ExtensionService#_doActivateExtension vscode.json-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-11 17:18:45.842 [info] ExtensionService#_doActivateExtension vscode.typescript-language-features, startup: false, activationEvent: 'onLanguage:jsonc'
+2024-12-11 17:19:06.240 [info] Extension host terminating: renderer closed the MessagePort
+2024-12-11 17:19:06.387 [error] TypeError: Cannot read properties of undefined (reading 'dispose')
+	at _d (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:45688)
+	at Object.Fw (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:46543)
+	at z_.eb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:11724)
+	at file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9874
+	at Array.map (<anonymous>)
+	at z_.$ (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:9862)
+	at z_.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:118:10105)
+	at EC.terminate (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:119:1424)
+	at Zi (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:15063)
+	at MessagePortMain.<anonymous> (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:11611)
+	at MessagePortMain.emit (node:events:518:28)
+	at MessagePortMain.emit (node:domain:489:12)
+	at MessagePortMain._internalPort.emit (node:electron/js2c/utility_init:2:2949)
+	at Object.topLevelDomainCallback (node:domain:161:15)
+	at Object.callbackTrampoline (node:internal/async_hooks:128:24)
+2024-12-11 17:19:06.412 [info] Extension host with pid 2150 exiting with code 0

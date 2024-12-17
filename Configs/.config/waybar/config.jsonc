@@ -7,7 +7,7 @@
     "output": [ "*" ],
     "position": "top",
     "mod": "dock",
-    "height": 27,
+    "height": 30,
     "exclusive": true,
     "passthrough": false,
     "gtk-layer-shell": true,
@@ -17,7 +17,7 @@
 // positions generated based on config.ctl //
 
 	"modules-left": ["custom/padd","custom/l_end","hyprland/workspaces","","hyprland/window","custom/r_end","custom/padd"],
-	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_endcustom/l_end","custom/cava","wlr/taskbar","custom/r_end","custom/padd"],
+	"modules-center": ["custom/padd","custom/l_end","idle_inhibitor","clock","custom/r_endcustom/l_end","custom/cava","custom/keybindhint","custom/r_end","custom/padd"],
 	"modules-right": ["custom/padd","custom/l_end","backlight","custom/updates","custom/keybindhint","custom/r_end","custom/l_end","privacy","tray","battery","custom/r_end","custom/l_end","custom/wbar","custom/power","custom/r_end","custom/padd"],
 
 
@@ -41,14 +41,17 @@
         "rotate": 0,
         "separate-outputs": true,
         "rewrite": {
-            "zaryu@archlinux:(.*)": "$1 ",
+            "(.*)zaryu@archlinux:(.*)": "$1  :$2",
             "(.*) — Mozilla Firefox": "$1 󰈹",
-            "(.*)Mozilla Firefox": "Firefox 󰈹",
+            "(.*)Mozilla Firefox": "$1 Firefox 󰈹",
             "(.*) - Visual Studio Code": "$1 󰨞",
-            "(.*)Visual Studio Code": "Code 󰨞",
+            "(.*)Visual Studio Code": "$1 Code 󰨞",
             "(.*) — Dolphin": "$1 󰉋",
-            "(.*)Spotify": "Spotify 󰓇",
-            "(.*)Steam": "Steam 󰓓"
+            "(.*)Spotify.*": "$1 Spotify 󰓇",
+            "(.*)Steam": "$1 Steam 󰓓",
+            "(.*) - Discord": "$1  ",
+            "(.*?)-\\s*YouTube(.*)": "$1󰗃", 
+            "(.*?\\s)YouTube(.*)": "$1YouTube 󰗃"
         },
         "max-length": 50
     },
@@ -57,9 +60,11 @@
         "format": "{icon}",
         "rotate": 0,
         "format-icons": {
-            "activated": "󰥔",
-            "deactivated": ""
-        }
+            "activated": "",
+            "deactivated": "󰛊"
+        },
+        "tooltip-format-activated":"Caffeine Mode Active",
+        "tooltip-format-deactivated":"Caffeine Mode Inactive"
     },
 
     "clock": {
@@ -92,31 +97,19 @@
 	"exec": "waybar_cava.sh",
 	"restart-interval": 1,
 	"hide-empty": true
-},	"wlr/taskbar": {
-		"format": "{icon}",
-		"rotate": 0,
-		"icon-size": 16,
-		"icon-theme": "Vivid-Glassy-Dark-Icons",
-        "spacing": 0,
-		"tooltip-format": "{title}",
-		"on-click": "activate",
-		"on-click-middle": "close",
-		"ignore-list": [
-			"Alacritty"
-		],
-		"app_ids-mapping": {
-			"firefoxdeveloperedition": "firefox-developer-edition",
-      "jetbrains-datagrip": "DataGrip"
-		}
-	},
+},    "custom/keybindhint": {
+        "format": " ",
+        "rotate": 0,
+        "on-click": "keybinds_hint.sh"
+    },
 
     "backlight": {
         "device": "intel_backlight",
         "rotate": 0,
         "format": "{icon} {percent}%",
         "format-icons": ["", "", "", "", "", "", "", "", ""],
-        "on-scroll-up": "brightnessctl set 1%+",
-        "on-scroll-down": "brightnessctl set 1%-",
+        "on-scroll-up": "brightnesscontrol.sh i 1",
+        "on-scroll-down": "brightnesscontrol.sh d 1",
         "min-length": 6
     },
 
@@ -130,14 +123,8 @@
         "tooltip": true,
         "signal": 20,
     },
-    "custom/keybindhint": {
-        "format": " ",
-        "rotate": 0,
-        "on-click": "keybinds_hint.sh"
-    },
-
     "privacy": {
-        "icon-size": 12,
+        "icon-size": 13,
         "icon-spacing": 5,
         "transition-duration": 250,
         "modules": [
@@ -155,7 +142,7 @@
     },
 
     "tray": {
-        "icon-size": 16,
+        "icon-size": 18,
         "rotate": 0,
         "spacing": 5
     },

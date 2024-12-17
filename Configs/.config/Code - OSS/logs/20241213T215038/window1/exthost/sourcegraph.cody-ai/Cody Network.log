@@ -1,0 +1,207 @@
+2024-12-13 21:50:52.308 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:50:52.304Z",
+  "timings": {
+    "close": "2024-12-13T14:50:52.304Z",
+    "error": "2024-12-13T14:50:52.304Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)\n\tat TCP.callbackTrampoline (node:internal/async_hooks:130:17)"
+    },
+    "socket": {
+      "start": "2024-12-13T14:50:51.813Z"
+    },
+    "start": "2024-12-13T14:50:51.781Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}
+2024-12-13 21:51:19.224 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:19.220Z",
+  "timings": {
+    "close": "2024-12-13T14:51:19.220Z",
+    "error": "2024-12-13T14:51:19.220Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)\n\tat TCP.callbackTrampoline (node:internal/async_hooks:130:17)"
+    },
+    "socket": {
+      "start": "2024-12-13T14:51:18.737Z"
+    },
+    "start": "2024-12-13T14:51:18.706Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}
+2024-12-13 21:51:38.868 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.866Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.865Z",
+    "error": "2024-12-13T14:51:38.864Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.213Z",
+      "start": "2024-12-13T14:51:35.319Z"
+    },
+    "start": "2024-12-13T14:51:34.770Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.871 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.870Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.870Z",
+    "error": "2024-12-13T14:51:38.870Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.209Z",
+      "start": "2024-12-13T14:51:35.319Z"
+    },
+    "start": "2024-12-13T14:51:34.758Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.873 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.872Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.872Z",
+    "error": "2024-12-13T14:51:38.872Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.208Z",
+      "start": "2024-12-13T14:51:35.318Z"
+    },
+    "start": "2024-12-13T14:51:34.752Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.875 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.874Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.874Z",
+    "error": "2024-12-13T14:51:38.874Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.207Z",
+      "start": "2024-12-13T14:51:35.318Z"
+    },
+    "start": "2024-12-13T14:51:34.743Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.877 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.876Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.876Z",
+    "error": "2024-12-13T14:51:38.876Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.207Z",
+      "start": "2024-12-13T14:51:35.318Z"
+    },
+    "start": "2024-12-13T14:51:34.736Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.881 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.880Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.880Z",
+    "error": "2024-12-13T14:51:38.880Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.206Z",
+      "start": "2024-12-13T14:51:35.317Z"
+    },
+    "start": "2024-12-13T14:51:34.715Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.883 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.882Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.882Z",
+    "error": "2024-12-13T14:51:38.882Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "connect": "2024-12-13T14:51:37.205Z",
+      "start": "2024-12-13T14:51:35.316Z"
+    },
+    "start": "2024-12-13T14:51:34.700Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?EvaluateFeatureFlag"
+}
+2024-12-13 21:51:38.887 [error] {
+  "agent": "vscode",
+  "message": "Request Finished with Error",
+  "protocol": "https",
+  "timestamp": "2024-12-13T14:51:38.884Z",
+  "timings": {
+    "close": "2024-12-13T14:51:38.884Z",
+    "error": "2024-12-13T14:51:38.884Z",
+    "errorValue": {
+      "code": "ECONNRESET",
+      "message": "socket hang up",
+      "stack": "Error: socket hang up\n\tat TLSSocket.socketCloseListener (node:_http_client:477:27)\n\tat TLSSocket.emit (node:events:530:35)\n\tat TLSSocket.emit (node:domain:489:12)\n\tat node:net:343:12\n\tat TCP.done (node:_tls_wrap:648:7)"
+    },
+    "socket": {
+      "start": "2024-12-13T14:51:38.167Z"
+    },
+    "start": "2024-12-13T14:51:38.095Z"
+  },
+  "url": "https://sourcegraph.com/.api/graphql?FeatureFlags"
+}

@@ -8,7 +8,13 @@
             "file:///home/zaryu/GitHub/hyprnix": "__default__profile__",
             "file:///home/zaryu/GitHub/dotfiles": "__default__profile__",
             "file:///home/zaryu/GitHub/hive-dotfiles": "__default__profile__",
-            "file:///home/zaryu/GitHub/hyprdots": "__default__profile__"
+            "file:///home/zaryu/GitHub/hyprdots": "__default__profile__",
+            "file:///home/zaryu/.config/ags4": "__default__profile__",
+            "file:///home/zaryu/GitHub/zaryu.startpage": "__default__profile__",
+            "file:///home/zaryu/.config/ags2": "__default__profile__",
+            "file:///home/zaryu/Clone/UsedNow/kompass": "__default__profile__",
+            "file:///home/zaryu/Clone/end4%E2%81%84dots-hyprland/.config/ags": "__default__profile__",
+            "file:///home/zaryu/.config/Code%20-%20OSS/Workspaces/1734101485950/workspace.json": "__default__profile__"
         },
         "emptyWindows": {}
     },
@@ -19,15 +25,11 @@
     "backupWorkspaces": {
         "workspaces": [
             {
-                "id": "2401e9bfc1a03bf43035aa9f1beeaae7",
-                "configURIPath": "file:///home/zaryu/.config/Code%20-%20OSS/Workspaces/1733316271340/workspace.json"
+                "id": "746774e4cb02428a21ecbfe504e9c199",
+                "configURIPath": "file:///home/zaryu/.config/Code%20-%20OSS/Workspaces/1734101485950/workspace.json"
             }
         ],
-        "folders": [
-            {
-                "folderUri": "file:///home/zaryu/GitHub/hyprdots"
-            }
-        ],
+        "folders": [],
         "emptyWindows": []
     },
     "lastKnownMenubarData": {
@@ -84,6 +86,50 @@
                                 },
                                 {
                                     "id": "vscode.menubar.separator"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/zaryu/Clone/end4%E2%81%84dots-hyprland/.config/ags",
+                                        "path": "/home/zaryu/Clone/end4⁄dots-hyprland/.config/ags",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/Clone/end4⁄dots-hyprland/.config/ags"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/zaryu/.config/ags2",
+                                        "path": "/home/zaryu/.config/ags2",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/ags2"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/zaryu/GitHub/zaryu.startpage",
+                                        "path": "/home/zaryu/GitHub/zaryu.startpage",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/GitHub/zaryu.startpage"
+                                },
+                                {
+                                    "id": "openRecentFolder",
+                                    "uri": {
+                                        "$mid": 1,
+                                        "external": "file:///home/zaryu/.config/ags4",
+                                        "path": "/home/zaryu/.config/ags4",
+                                        "scheme": "file"
+                                    },
+                                    "enabled": true,
+                                    "label": "~/.config/ags4"
                                 },
                                 {
                                     "id": "openRecentFolder",
@@ -223,13 +269,6 @@
                         "label": "Share",
                         "submenu": {
                             "items": [
-                                {
-                                    "id": "github.copyVscodeDevLinkFile",
-                                    "label": "Copy vscode.dev Link"
-                                },
-                                {
-                                    "id": "vscode.menubar.separator"
-                                },
                                 {
                                     "id": "workbench.profiles.actions.exportProfile",
                                     "label": "Export Profile (Default)..."
@@ -1762,10 +1801,10 @@
     "windowsState": {
         "lastActiveWindow": {
             "workspaceIdentifier": {
-                "id": "2401e9bfc1a03bf43035aa9f1beeaae7",
-                "configURIPath": "file:///home/zaryu/.config/Code%20-%20OSS/Workspaces/1733316271340/workspace.json"
+                "id": "746774e4cb02428a21ecbfe504e9c199",
+                "configURIPath": "file:///home/zaryu/.config/Code%20-%20OSS/Workspaces/1734101485950/workspace.json"
             },
-            "backupPath": "/home/zaryu/.config/Code - OSS/Backups/2401e9bfc1a03bf43035aa9f1beeaae7",
+            "backupPath": "/home/zaryu/.config/Code - OSS/Backups/746774e4cb02428a21ecbfe504e9c199",
             "uiState": {
                 "mode": 0,
                 "x": 0,

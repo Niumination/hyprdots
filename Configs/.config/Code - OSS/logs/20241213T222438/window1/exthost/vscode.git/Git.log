@@ -1,0 +1,28 @@
+2024-12-13 22:24:57.403 [info] [main] Log level: Info
+2024-12-13 22:24:57.403 [info] [main] Validating found git in: "git"
+2024-12-13 22:24:57.403 [info] [main] Using git "2.47.1" from "git"
+2024-12-13 22:24:57.403 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-13 22:24:57.403 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-13 22:25:07.643 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-13 22:25:07.643 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.492 [info] [main] Log level: Info
+2024-12-13 22:25:16.492 [info] [main] Validating found git in: "git"
+2024-12-13 22:25:16.492 [info] [main] Using git "2.47.1" from "git"
+2024-12-13 22:25:16.492 [info] [Model][doInitialScan] Initial repository scan started
+2024-12-13 22:25:16.492 [info] > git rev-parse --show-toplevel [455ms]
+2024-12-13 22:25:16.492 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.544 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-13 22:25:16.544 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.569 [info] > git rev-parse --show-toplevel [5ms]
+2024-12-13 22:25:16.569 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.593 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-13 22:25:16.593 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.610 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-13 22:25:16.610 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.629 [info] > git rev-parse --show-toplevel [4ms]
+2024-12-13 22:25:16.629 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:25:16.630 [info] [Model][doInitialScan] Initial repository scan completed - repositories (0), closed repositories (0), parent repositories (0), unsafe repositories (0)
+2024-12-13 22:25:49.371 [info] > git rev-parse --show-toplevel [14ms]
+2024-12-13 22:25:49.371 [info] fatal: not a git repository (or any of the parent directories): .git
+2024-12-13 22:26:53.502 [info] > git rev-parse --show-toplevel [24ms]
+2024-12-13 22:26:53.502 [info] fatal: not a git repository (or any of the parent directories): .git

@@ -14,7 +14,5 @@
   "terminal.external.linuxExec": "kitty",
   "terminal.explorerKind": "both",
   "terminal.sourceControlRepositoriesKind": "both",
-  "telemetry.telemetryLevel": "off",
-  "editor.inlineSuggest.suppressSuggestions": true,
-  "editor.minimap.enabled": false
+  "telemetry.telemetryLevel": "off"
 }

@@ -1,0 +1,56 @@
+█ telemetry-v2 recordEvent: cody.extension/savedLogin:
+█ auth Authenticating to https://sourcegraph.com/...:
+█ ModelsService User model preferences changed: {"defaults":{"chat":"anthropic::2023-06-01::claude-3.5-sonnet","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{}}
+█ ChatsController:constructor init:
+█ auth Authentication succeed to endpoint https://sourcegraph.com/:
+█ telemetry-v2 recordEvent: cody.auth/connected:
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags2
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags-hyprpanel
+█ ClientConfigSingleton refreshing configuration:
+█ symf using downloaded symf "/home/zaryu/.config/Code - OSS/User/globalStorage/sourcegraph.cody-ai/symf/symf-v0.0.16-x86_64-linux":
+█ symf creating index: file:///home/zaryu/.config/Code%20-%20OSS/User/globalStorage/sourcegraph.cody-ai/symf/indexroot/home/zaryu/.config/ags-hyprpanel
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ModelsService new models API enabled:
+█ UpstreamHealth Ping took 1206ms (Gateway: 1514ms):
+█ Autocomplete:initialized using "dotcom-feature-flags": "fireworks::deepseek-coder-v2-lite-base":
+█ ModelsService ModelsData changed: 16 primary models
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6a5059a8-33c5-4494-a4d8-2fa13da09131":
+█ Autocomplete:onComplete duration:"724ms" stopReason:"stop" outputChannelId:"6a5059a8-33c5-4494-a4d8-2fa13da09131":
+█ telemetry-v2 recordEvent: cody.completion/partiallyAccepted:
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "6bc31b3d-a06a-4bcb-9042-a6627a40884a":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "8c2492e1-b2ff-4bcc-abd9-d4d5bd5f8a33":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c4f162bb-9e0a-4f7c-b88a-1c79f353bba2":
+█ telemetry-v2 recordEvent: cody.completion/synthesizedFromParallelRequest:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1139ms" stopReason:"cody-request-aborted" outputChannelId:"6bc31b3d-a06a-4bcb-9042-a6627a40884a":
+█ Autocomplete:onComplete duration:"1055ms" stopReason:"stop" outputChannelId:"8c2492e1-b2ff-4bcc-abd9-d4d5bd5f8a33":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ telemetry-v2 recordEvent: cody.completion/accepted:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5af8ed4d-e5fe-46d2-859d-ce2e1bcee31e":
+█ Autocomplete:onComplete duration:"1559ms" stopReason:"cody-request-aborted" outputChannelId:"5af8ed4d-e5fe-46d2-859d-ce2e1bcee31e":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "34071ac0-9e10-4c30-a7e4-5b297b046df1":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"870ms" stopReason:"stop" outputChannelId:"34071ac0-9e10-4c30-a7e4-5b297b046df1":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "5165e408-16ef-4202-8335-39cdeb6fd4fe":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "417427b7-28dd-4bc5-bd8d-b05fe60c4170":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"874ms" stopReason:"stop" outputChannelId:"5165e408-16ef-4202-8335-39cdeb6fd4fe":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"742ms" stopReason:"cody-request-aborted" outputChannelId:"417427b7-28dd-4bc5-bd8d-b05fe60c4170":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "c27185b4-97a9-4f40-8215-147e85585cd0":
+█ Autocomplete:onComplete duration:"843ms" stopReason:"stop" outputChannelId:"c27185b4-97a9-4f40-8215-147e85585cd0":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "dde49eb7-8534-4b54-9622-4bba6b574b0d":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "307d1a51-8945-45f5-92ef-12661173d68d":
+█ Autocomplete:onComplete duration:"778ms" stopReason:"stop" outputChannelId:"307d1a51-8945-45f5-92ef-12661173d68d":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "2dd15ac3-4fec-4156-aa09-5ca87d89c806":
+█ Autocomplete:onComplete duration:"818ms" stopReason:"stop" outputChannelId:"2dd15ac3-4fec-4156-aa09-5ca87d89c806":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "814a66ab-29a8-4ed8-b8ed-8f81f97cdbe0":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"853ms" stopReason:"stop" outputChannelId:"814a66ab-29a8-4ed8-b8ed-8f81f97cdbe0":
+█ telemetry-v2 recordEvent: cody.characters/flush:
+█ GraphQLTelemetryExporter Error exporting telemetry events:: Error: accessing Sourcegraph HTTP API:  Error: Network call was dispatched before DelegatingAgent was initialized (https://sourcegraph.com/.api/graphql?RecordTelemetryEvents)

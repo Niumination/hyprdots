@@ -1,0 +1,50 @@
+2024-12-13 22:00:11.134 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 33ms.
+2024-12-13 22:00:11.186 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 21ms.
+2024-12-13 22:00:12.425 [warning] Ignoring the error while validating workspace folder file:///home/zaryu/Clone/end4%E2%81%84dots-hyprland/.config/ags - Error: ENOENT: no such file or directory, stat '/home/zaryu/Clone/end4⁄dots-hyprland/.config/ags'
+2024-12-13 22:00:12.730 [error] Error: The editor could not be opened because the file was not found.
+    at Nbe.gc (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2101:32266)
+    at async Nbe.setInput (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:2101:31424)
+    at async j8e.U (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:663:100849)
+    at async j8e.M (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:663:99400)
+    at async j8e.openEditor (vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:663:98482)
+    at async vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:775:23622
+2024-12-13 22:00:13.699 [info] Started local extension host with pid 5379.
+2024-12-13 22:00:19.440 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-13 22:00:22.843 [info] Extension host (LocalProcess pid: 5379) is unresponsive.
+2024-12-13 22:00:23.478 [info] Extension host (LocalProcess pid: 5379) is responsive.
+2024-12-13 22:00:23.543 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-13 22:00:24.117 [info] [perf] Render performance baseline is 321ms
+2024-12-13 22:00:25.149 [error] ENOENT: no such file or directory, scandir '/home/zaryu/Clone/end4⁄dots-hyprland/.config/ags': Error: ENOENT: no such file or directory, scandir '/home/zaryu/Clone/end4⁄dots-hyprland/.config/ags'
+2024-12-13 22:00:26.917 [info] Started local extension host with pid 5511.
+2024-12-13 22:00:31.165 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-13 22:00:34.138 [info] Extension host (LocalProcess pid: 5511) is unresponsive.
+2024-12-13 22:00:37.543 [error] Error while registering log channel file:///home/zaryu/.config/Code%20-%20OSS/logs/20241213T220008/window1/exthost/vscode.typescript-language-features/TypeScript.log Timed out while waiting for file to be created
+2024-12-13 22:00:40.948 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-13 22:00:41.030 [error] Error: Aborted onWillSaveTextDocument-event after 1750ms
+    at vscode-file://vscode-app/usr/lib/code/out/vs/workbench/workbench.desktop.main.js:635:8893
+2024-12-13 22:00:41.556 [info] Extension host (LocalProcess pid: 5511) is responsive.
+2024-12-13 22:00:41.558 [info] UNRESPONSIVE extension host: received responsive event and cancelling profiling session
+2024-12-13 22:00:41.569 [info] UNRESPONSIVE extension host: starting to profile NOW
+2024-12-13 22:00:44.917 [warning] UNRESPONSIVE extension host: 'vscode.typescript-language-features' took 54.261066217365695% of 265.367ms, saved PROFILE here: 'file:///tmp/exthost-9e9938.cpuprofile'
+2024-12-13 22:01:27.797 [error] [Extension Host] {"stack":"Error: Timeout\n\tat Timeout._onTimeout (/home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.48.1-universal/dist/extension.node.js:174732:20)\n\tat listOnTimeout (node:internal/timers:581:17)\n\tat process.processTimers (node:internal/timers:519:7)","message":"Timeout","name":"Error","promesa$protocols$IPromiseFactory$":"[object Object]","promesa$protocols$IPromiseFactory$_promise$arity$1":"function(a){return promesa.impl.rejected(this)}"}
+2024-12-13 22:01:46.956 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/dbusmenu-0.4/package.json 
+2024-12-13 22:01:46.958 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/cairo-1.0/package.json 
+2024-12-13 22:01:46.961 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/gobject-2.0/package.json 
+2024-12-13 22:01:46.964 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/glib-2.0/package.json 
+2024-12-13 22:01:46.970 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/gmodule-2.0/package.json 
+2024-12-13 22:01:46.971 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/xlib-2.0/package.json 
+2024-12-13 22:01:46.972 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/gio-2.0/package.json 
+2024-12-13 22:01:46.974 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/soup-3.0/package.json 
+2024-12-13 22:01:46.976 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/dbusmenugtk3-0.4/package.json 
+2024-12-13 22:01:46.977 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/freetype2-2.0/package.json 
+2024-12-13 22:01:46.980 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags2/types/%40girs/gvc-1.0/package.json 
+2024-12-13 22:01:46.981 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/gdk-3.0/package.json 
+2024-12-13 22:01:46.983 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/gmodule-2.0/package.json 
+2024-12-13 22:01:46.984 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/gio-2.0/package.json 
+2024-12-13 22:01:46.986 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/gvc-1.0/package.json 
+2024-12-13 22:01:46.987 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/harfbuzz-0.0/package.json 
+2024-12-13 22:01:46.989 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/freetype2-2.0/package.json 
+2024-12-13 22:01:46.991 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/glib-2.0/package.json 
+2024-12-13 22:01:46.995 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/notify-0.7/package.json 
+2024-12-13 22:01:46.996 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/soup-3.0/package.json 
+2024-12-13 22:01:46.998 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.config/ags-hyprpanel/types/%40girs/atk-1.0/package.json 

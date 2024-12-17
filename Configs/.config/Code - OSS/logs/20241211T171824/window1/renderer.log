@@ -1,0 +1,46 @@
+2024-12-11 17:18:27.214 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 23ms.
+2024-12-11 17:18:28.850 [info] Started local extension host with pid 2150.
+2024-12-11 17:18:33.965 [error] [Extension Host] TypeError: Cannot read properties of undefined (reading 'replace')
+	at n (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:1:1090)
+	at Bi (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41680)
+	at Ho.get (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41969)
+	at get formatterPath (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42024)
+	at Object.<anonymous> (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42449)
+	at Module._compile (node:internal/modules/cjs/loader:1484:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+	at Module.load (node:internal/modules/cjs/loader:1295:32)
+	at Module._load (node:internal/modules/cjs/loader:1111:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:10879)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:22433)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:4651)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at z_.xb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:23753)
+	at async Promise.all (index 0)
+2024-12-11 17:18:33.966 [error] [Extension Host] TypeError: Cannot read properties of undefined (reading 'replace')
+	at n (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:1:1090)
+	at Bi (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41680)
+	at Ho.get (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:41969)
+	at get formatterPath (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42024)
+	at Object.<anonymous> (/home/zaryu/.vscode-oss/extensions/jnoortheen.nix-ide-0.3.5-universal/dist/extension.js:44:42501)
+	at Module._compile (node:internal/modules/cjs/loader:1484:14)
+	at Module._extensions..js (node:internal/modules/cjs/loader:1564:10)
+	at Module.load (node:internal/modules/cjs/loader:1295:32)
+	at Module._load (node:internal/modules/cjs/loader:1111:12)
+	at c._load (node:electron/js2c/node_init:2:16955)
+	at e._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:174:10879)
+	at t._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:22433)
+	at i._load (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:158:4651)
+	at Module.require (node:internal/modules/cjs/loader:1318:19)
+	at require (node:internal/modules/helpers:179:18)
+	at z_.xb (file:///usr/lib/code/out/vs/workbench/api/node/extensionHostProcess.js:166:23753)
+	at async Promise.all (index 0)
+2024-12-11 17:18:33.968 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.3349609375kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-11 17:18:34.711 [info] [perf] Render performance baseline is 89ms
+2024-12-11 17:18:36.558 [error] [Extension Host] DelegatingProxy: Loaded 152 CA certs from noxide
+2024-12-11 17:18:48.461 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.298828125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-11 17:18:48.937 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-11 17:18:48.972 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.298828125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-11 17:18:49.551 [warning] [mainThreadStorage] large extension state detected (extensionId: sourcegraph.cody-ai, global: true): 1743.2626953125kb. Consider to use 'storageUri' or 'globalStorageUri' to store this data on disk instead.
+2024-12-11 17:19:06.290 [warning] [backup tracker] suspended, ignoring unregister event file:///home/zaryu/.vscode-oss/extensions/sourcegraph.cody-ai-1.48.1-universal/walkthroughs/cody_tutorial.py 

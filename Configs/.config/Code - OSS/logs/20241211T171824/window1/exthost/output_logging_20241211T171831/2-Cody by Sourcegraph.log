@@ -1,0 +1,23 @@
+█ ChatsController:constructor init:
+█ telemetry-v2 recordEvent: cody.extension/savedLogin:
+█ auth Authenticating to https://sourcegraph.com/...:
+█ ModelsService User model preferences changed: {"defaults":{"chat":"sourcegraph::2023-06-01::deep-cody","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{"chat":"sourcegraph::2023-06-01::deep-cody"}}
+█ auth Authentication succeed to endpoint https://sourcegraph.com/:
+█ telemetry-v2 recordEvent: cody.auth/connected:
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags2
+█ ClientConfigSingleton refreshing configuration:
+█ symf using downloaded symf "/home/zaryu/.config/Code - OSS/User/globalStorage/sourcegraph.cody-ai/symf/symf-v0.0.16-x86_64-linux":
+█ symf creating index: file:///home/zaryu/.config/Code%20-%20OSS/User/globalStorage/sourcegraph.cody-ai/symf/indexroot/home/zaryu/.config/ags2
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ModelsService new models API enabled:
+█ Autocomplete:initialized using "dotcom-feature-flags": "fireworks::deepseek-coder-v2-lite-base":
+█ ModelsService ModelsData changed: 16 primary models
+█ UpstreamHealth Ping took 749ms (Gateway: 814ms):
+█ ModelsService User model preferences changed: {"defaults":{"chat":"anthropic::2023-06-01::claude-3.5-sonnet","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{}}
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "a1e223ec-dd9b-4be5-95bb-3ca9da75d1b9":
+█ Autocomplete:onComplete duration:"2329ms" stopReason:"stop" outputChannelId:"a1e223ec-dd9b-4be5-95bb-3ca9da75d1b9":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cf04f3b8-e0cc-4def-9c55-b216a5ef347e":
+█ Autocomplete:onComplete duration:"846ms" stopReason:"stop" outputChannelId:"cf04f3b8-e0cc-4def-9c55-b216a5ef347e":
+█ UpstreamHealth Ping took 406ms (Gateway: 1675ms):
+█ telemetry-v2 recordEvent: cody.characters/flush:
+█ GraphQLTelemetryExporter Error exporting telemetry events:: Error: accessing Sourcegraph HTTP API:  Error: Network call was dispatched before DelegatingAgent was initialized (https://sourcegraph.com/.api/graphql?RecordTelemetryEvents)

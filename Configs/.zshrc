@@ -99,6 +99,7 @@ alias va='vim'
 alias cat='bat'
 #alias nix='fish'
 alias 'e.'='exit'
+alias fast='fastfetch'
 
 if [ -e /home/zaryu/.nix-profile/etc/profile.d/nix.sh ]; then . /home/zaryu/.nix-profile/etc/profile.d/nix.sh; fi # added by Nix installer
 

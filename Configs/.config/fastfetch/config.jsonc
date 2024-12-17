@@ -37,6 +37,11 @@
       "keyColor": "yellow",
     },
     {
+      "type": "display",
+      "key": "  Display",
+      "keyColor": "green",
+    },
+    {
       "type": "terminal",
       "key": "  Terminal",
       "keyColor": "yellow",

@@ -1,6 +1,6 @@
 <?xml version='1.0'?>
 <!DOCTYPE gui SYSTEM 'kpartgui.dtd'>
-<gui name="dolphin" version="40">
+<gui name="dolphin" version="41">
  <MenuBar>
   <Menu name="file">
    <Action name="new_menu"/>
@@ -73,7 +73,6 @@
    <Action name="open_preferred_search_tool"/>
    <Action name="open_terminal"/>
    <Action name="open_terminal_here"/>
-   <Action name="focus_terminal_panel"/>
    <Action name="compare_files"/>
    <Action name="change_remote_encoding"/>
   </Menu>
@@ -118,19 +117,19 @@
   <Action name="edit_copy" priority="0"/>
   <Action name="edit_cut" priority="0" shortcut="Ctrl+X"/>
   <Action name="edit_paste" priority="0"/>
+  <Action name="focus_terminal_panel" shortcut="Ctrl+Shift+F4; Ctrl+Alt+Return"/>
   <Action name="go_back" priority="0"/>
   <Action name="go_forward" priority="0"/>
   <Action name="go_home" priority="0"/>
   <Action name="go_up" priority="0"/>
   <Action name="icons" priority="0"/>
+  <Action name="open_terminal_here" shortcut="Ctrl+Shift+Return"/>
+  <Action name="properties" shortcut="Alt+Return; Ctrl+Return"/>
   <Action name="stop" priority="0"/>
   <Action name="toggle_filter" priority="0"/>
   <Action name="toggle_search" priority="0"/>
   <Action name="view_zoom_in" priority="0"/>
   <Action name="view_zoom_out" priority="0"/>
   <Action name="view_zoom_reset" priority="0"/>
-  <Action name="properties" shortcut="Alt+Return; Ctrl+Return"/>
-  <Action name="open_terminal_here" shortcut="Ctrl+Shift+Return"/>
-  <Action name="focus_terminal_panel" shortcut="Ctrl+Shift+F4; Ctrl+Alt+Return"/>
  </ActionProperties>
 </gui>

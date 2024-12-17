@@ -1,0 +1,46 @@
+█ telemetry-v2 recordEvent: cody.extension/savedLogin:
+█ auth Authenticating to https://sourcegraph.com/...:
+█ ModelsService User model preferences changed: {"defaults":{"chat":"anthropic::2023-06-01::claude-3.5-sonnet","edit":"anthropic::2023-06-01::claude-3.5-sonnet","autocomplete":"fireworks::v1::deepseek-coder-v2-lite-base"},"selected":{}}
+█ ChatsController:constructor init:
+█ auth Authentication succeed to endpoint https://sourcegraph.com/:
+█ telemetry-v2 recordEvent: cody.auth/connected:
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags2
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags4
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ ModelsService new models API enabled:
+█ UpstreamHealth Ping took 3436ms (Gateway: 910ms):
+█ Autocomplete:initialized using "dotcom-feature-flags": "fireworks::deepseek-coder-v2-lite-base":
+█ ModelsService ModelsData changed: 16 primary models
+█ SymfRunner unsafeEnsureIndex: file:///home/zaryu/.config/ags3
+█ symf using downloaded symf "/home/zaryu/.config/Code - OSS/User/globalStorage/sourcegraph.cody-ai/symf/symf-v0.0.16-x86_64-linux":
+█ symf creating index: file:///home/zaryu/.config/Code%20-%20OSS/User/globalStorage/sourcegraph.cody-ai/symf/indexroot/home/zaryu/.config/ags3
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ telemetry-v2 recordEvent: cody.ghostText/visible:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "4a64172c-23af-454e-a08c-f6c3a3d79443":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1301ms" stopReason:"stop" outputChannelId:"4a64172c-23af-454e-a08c-f6c3a3d79443":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "fdefbec6-0fb5-4a65-ba7d-c220ec899a85":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1046ms" stopReason:"stop" outputChannelId:"fdefbec6-0fb5-4a65-ba7d-c220ec899a85":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "f6aca9d5-96ff-47ca-a2fd-a3184ee00f78":
+█ Autocomplete:onComplete duration:"1008ms" stopReason:"stop" outputChannelId:"f6aca9d5-96ff-47ca-a2fd-a3184ee00f78":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "506deef9-4993-470f-bd51-fc738019a45f":
+█ telemetry-v2 recordEvent: cody.completion/suggested:
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "1e648ef7-eff5-408c-a838-957002226c87":
+█ Autocomplete:fastPathClient:fetch endpoint: "https://cody-gateway.sourcegraph.com/v1/completions/fireworks" outputChannelId: "cc025530-b15e-4506-a762-f9f38d59b028":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1349ms" stopReason:"cody-request-aborted" outputChannelId:"506deef9-4993-470f-bd51-fc738019a45f":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:onComplete duration:"1356ms" stopReason:"stop" outputChannelId:"1e648ef7-eff5-408c-a838-957002226c87":
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.completion/noResponse:
+█ Autocomplete:onComplete duration:"1707ms" stopReason:"stop" outputChannelId:"cc025530-b15e-4506-a762-f9f38d59b028":
+█ ClientConfigSingleton refreshing configuration:
+█ ClientConfigSingleton refreshed: {"codyEnabled":true,"chatEnabled":true,"autoCompleteEnabled":true,"customCommandsEnabled":true,"attributionEnabled":false,"smartContextWindowEnabled":true,"modelsAPIEnabled":false,"latestSupportedCompletionsStreamAPIVersion":5}
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ Autocomplete:requestManager Irrelevant request aborted:
+█ telemetry-v2 recordEvent: cody.characters/flush:
+█ GraphQLTelemetryExporter Error exporting telemetry events:: Error: accessing Sourcegraph HTTP API:  Error: Network call was dispatched before DelegatingAgent was initialized (https://sourcegraph.com/.api/graphql?RecordTelemetryEvents)

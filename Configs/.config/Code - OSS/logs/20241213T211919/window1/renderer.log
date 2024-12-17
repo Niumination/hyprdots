@@ -1,0 +1,4 @@
+2024-12-13 21:19:22.353 [warning] Creation of workbench contribution 'workbench.contrib.preferencesActions' took 40ms.
+2024-12-13 21:19:22.426 [warning] Creation of workbench contribution 'workbench.contrib.explorerViewletViews' took 38ms.
+2024-12-13 21:19:25.776 [info] Started local extension host with pid 6635.
+2024-12-13 21:19:32.452 [warning] [File Watcher (node.js)] Watcher shutdown because watched path got deleted
